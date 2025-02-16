@@ -89,7 +89,7 @@ Finalmente, observa la dirección en la que deben colocarse los motores respecto
 ### 3. Preparación de los 4 brazos
 La figura 3.2 muestra cómo preparar cada uno de los 4 brazos del dron.   
 <img src="https://github.com/user-attachments/assets/786e5283-ce58-45bc-bd96-e9a64110b799" width="300" height="300">       
-**Figura 3.12:** Preparació de los brazos
+**Figura 3.2:** Preparació de los brazos
 ### 4. Conectar los cables de los LEDs a la placa de distribución de energía    
 Las conexiones necesarias se muestran en la figura 3.3.    
 <img src="https://github.com/user-attachments/assets/aa6690ed-5138-4c73-a3c5-8d6771b0f0ba" width="300" height="300">      
@@ -98,14 +98,14 @@ Las conexiones necesarias se muestran en la figura 3.3.
 Se debe conectar cada uno de los cuatro cables de colores (uno por LED), el cable POWER2 para alimentar el autopiloto (que está en el kit del Orange Cube) y el conector doble necesario para el control de los LEDs. Observad cómo se han protegido con cinta aislante negra estos dos últimos cables para evitar el roce del cable con los bordes de la plancha negra a la que se atornillará la placa de distribución de energía.    
 ### 5. Atornillar la placa de distribución de energía a la plancha superior
 La figura 3.4 indica cómo realizar esta operación. Fíjate que las dos planchas negras que vienen en el kit Hexsoon son diferentes. La superior es la mostrada en la figura. Es importante respetar la colocación exacta de la placa sobre la plancha y su orientación. Tanto el cable POWER2 como el conector doble de control de los LEDs deben salir por la parte superior de la plancha.   
-<img src="https://github.com/user-attachments/assets/ae67f852-4e86-4db6-ba36-7a6db48cff38" width="300" height="300">     
+<img src="https://github.com/user-attachments/assets/ae67f852-4e86-4db6-ba36-7a6db48cff38" width="300" height="200">     
 **Figura 3.4:** Colocación de la placa de distribución de energía en la plancha superior 
 
 ### 6. Introducir en cada brazo un variador ESC 
 La figura 3.5 muestra cómo realizar esta operación. Por un lado, se deben conectar los variadores a los cables de alimentación procedentes de la placa de distribución de energía (esquina superior derecha de la figura 3.5). Por otro lado, el otro extremo de los variadores se debe conectar a los motores, según el sentido de giro, tal y como se indica en la figura 3.6. Es importante tener en cuenta que los motores con punto blanco girarán en sentido antihorario y los motores con punto negro lo harán en sentido horario.   
- <img src="https://github.com/user-attachments/assets/d90dcd36-0036-4a37-84dd-22d711f05ecf" width="300" height="300">     
+ <img src="https://github.com/user-attachments/assets/d90dcd36-0036-4a37-84dd-22d711f05ecf" width="300" height="200">     
 **Figura 3.5:** En cada brazo hay que introducir un variador para controlar el motor 
-<img src="https://github.com/user-attachments/assets/d585ae99-7c5a-45fc-9c7f-c6e4216e92b2" width="500" height="300">     
+<img src="https://github.com/user-attachments/assets/d585ae99-7c5a-45fc-9c7f-c6e4216e92b2" width="600" height="200">     
 **Figura 3.6:**  Conexión del motor al variador ESC según el sentido de giro (imagen elaborada por los alumnos de Master de drones Júlia y Gerard)
 
 ### 7. Disponer los brazos y motores correctamente en relación con la plancha superior
