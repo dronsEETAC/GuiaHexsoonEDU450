@@ -236,10 +236,10 @@ ATENCIÓN: Aunque el vídeo no lo muestra, es importante verificar que los stick
 
 Aunque el vídeo no lo muestre, es conveniente asignar el interruptor SC (con tres posiciones) al canal 6. Más adelante se indicará para qué se necesitarán los interruptores SB, SC y SF.
 
-También puedes crear un modelo utilizando directamente el radiotransmisor, como se muestra en este vídeo:
-https://youtu.be/ZFuazchCv4o
+También puedes crear un modelo utilizando directamente el radiotransmisor, como se muestra en este vídeo:    
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZFuazchCv4o)](https://www.youtube.com/watch?v=ZFuazchCv4o)    
 
-Por último, es necesario vincular el transmisor (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cada caso.
+Por último, es necesario vincular el transmisor (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cadZFuazchCv4oa caso.
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D07qpdApsCAI)](https://www.youtube.com/watch?v=07qpdApsCAI)     
 (protocolo ACCESS)     
