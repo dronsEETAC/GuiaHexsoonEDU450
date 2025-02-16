@@ -141,7 +141,7 @@ Las imágenes de la figura 3.9 muestran cómo realizar esta operación. Observad
 
 ###10. Separar al máximo posible los cables de la placa de distribución de energía
 Esta operación se puede realizar como se muestra en la figura 3.10. El objetivo es que el posible calentamiento de la placa no pueda afectar a los cables.   
-<img src="https://github.com/user-attachments/assets/e1fc9206-5623-47e2-aa91-37d352502f93" width="700" height="200">  
+<img src="https://github.com/user-attachments/assets/352afbd8-a3b2-48a4-9680-9cbe858122df" width="700" height="200">  
 **Figura 3.10:** Separar lo máximo posible los cables de la placa de distribución de energía
 
 
