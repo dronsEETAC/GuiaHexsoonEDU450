@@ -41,30 +41,30 @@ https://youtu.be/c2Aa_KSdEwo
 ### 3. Videos complementarios
 Los vídeos que aparecen a continuación profundizan en muchos de los conceptos y componentes que se mencionan en el vídeo introductorio. No es necesario mirarlos antes de comenzar. Pero es interesante tener presente que están por si conviene en algún momento revisar los conceptos con un poco más de profundidad.
 
-Radio control	 
+Radio control:	 
 https://www.youtube.com/watch?v=LyPtzv0y5DE
 
-ESC	 
+ESC:	 
 https://www.youtube.com/watch?v=OZNxbxL7cdc
 
-Motores Brushless 	 
+Motores Brushless: 	 
 https://www.youtube.com/watch?v=uLutMoh4Ttg
 
-Conexiones para radio control	 
+Conexiones para radio control:	 
 https://www.youtube.com/watch?v=GbUMC8h2uhU&t=8s
 
-Configuración de la emisora de radio	 
+Configuración de la emisora de radio:	 
 https://www.youtube.com/watch?v=azs1wmr4c7w
 
-Flight controllers vs 
-flight computers	 
+Flight controllers vs flight computers:	 
 https://www.youtube.com/watch?v=PlKeFj5teo4
 
-Mission Planner	 
+Mission Planner:	 
 https://www.youtube.com/watch?v=z_sZUOrnfY8&t=3s
 
-El autopiloto	 
+El autopiloto:	 
 https://www.youtube.com/watch?v=m7THu-W-kjE&list=PLYsWjANuAm4rSLU7PQczfpQ9B4KbcPWsI&index=1
 
-Modos de vuelo	 
+Modos de vuelo:	 
+https://www.youtube.com/watch?v=mSSbjo9pYgM
 
