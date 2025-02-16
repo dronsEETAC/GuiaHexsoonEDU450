@@ -120,7 +120,7 @@ Por otro lado, la figura 3.7 (izquierda) determina en qué sentido (CW o CCW) de
 Observar también en esta figura que se han añadido extensiones a los cables trenzados de los motores delanteros (naranjas). Estas extensiones facilitarán ciertas conexiones más adelante.
 
 Se puede observar que cada motor tiene sobre la palabra HEXSOON unas flechitas que indican el sentido de giro (estas flechitas ya no aparecen en versiones más recientes del kit). Esta es una ayuda más para confirmar que hemos tomado la decisión correcta. Pero ATENCIÓN: se ha observado que en algunos casos estas flechitas están equivocadas. Lo importante para tomar la decisión correcta es lo que hemos dicho antes: observar la forma de las hélices, determinar cuál debe ser su sentido de giro y colocar los motores en el lugar que corresponde, de acuerdo con la figura 3.7.   
-<img src="https://github.com/user-attachments/assets/eb128a57-a8a5-4ccf-bec5-de371352dd49" width="600" height="300">  
+<img src="https://github.com/user-attachments/assets/eb128a57-a8a5-4ccf-bec5-de371352dd49" width="400" height="200">  
 **Figura 3.7:** Sentido de giro de los motores según su posición
 ### 8. Fijar el motor al brazo
 El resultado de esta operación se muestra en la figura 3.8. No es una operación trivial y requiere cierta habilidad manual.   
@@ -136,7 +136,7 @@ Las imágenes de la figura 3.9 muestran cómo realizar esta operación. Observad
 * El cable POWER2 para alimentar el autopiloto.
 * El cable con el conector doble para controlar los LEDs.
 * El cable para alimentar la Raspberry Pi en un futuro.
-<img src="https://github.com/user-attachments/assets/4e92f2b3-4d2c-420c-b5dc-b71135a71c0d" width="700" height="200">
+<img src="https://github.com/user-attachments/assets/4e92f2b3-4d2c-420c-b5dc-b71135a71c0d" width="400" height="200">
 
 **Figura 3.9:** Fijar  los brazos a las dos planchas
 
