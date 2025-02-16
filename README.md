@@ -20,12 +20,12 @@ El proceso de montaje, configuración y preparación para pruebas de vuelo del d
 
 | # | Título | Descripción |
 |-----------|-----------|-----------|
-| #1  | Lo más básico de los drones y sus componentes	  | Un video que ofrece una visión global sobre los drones y sus componentes, y una colección de videos complementarios para profundizar   |
-| #2   |Unboxing   | Enumeración de los componentes del kit   |
-| #3   | Montaje de la carcasa (parte 1) | Primera parte del montaje, en la que se instalan los motores, brazos, variadores ESC, etc. |
-| #4   | Radio control	   | Configuración de la emisora de radio para controlar el dron   |
-| #5   | El autopiloto	  | Configuración y primeras calibraciones del autopiloto   |
-| #6   | Montaje de la carcasa (parte 2)   | Segunda parte del montaje, en la que se instala el autopiloto, el receptor GPS, el servo, las radios de telemetría, etc.	 |
+| #1  | Lo más básico de los drones y sus componentes| Un video que ofrece una visión global sobre los drones y sus componentes, y una colección de videos complementarios para profundizar|
+| #2   |Unboxing| Enumeración de los componentes del kit|
+| #3   | Montaje de la carcasa (parte 1)| Primera parte del montaje, en la que se instalan los motores, brazos, variadores ESC, etc.|
+| #4   | Radio control| Configuración de la emisora de radio para controlar el dron   |
+| #5   | El autopiloto| Configuración y primeras calibraciones del autopiloto|
+| #6   | Montaje de la carcasa (parte 2)| Segunda parte del montaje, en la que se instala el autopiloto, el receptor GPS, el servo, las radios de telemetría, etc.|
 | #7   | Más calibraciones|Últimas calibraciones para dejar el dron preparado para pruebas de vuelo|
-| #8   | Simulador, geofences y planificación de misiones   | Aspectos muy importantes para preparar las pruebas de vuelo  |
+| #8   | Simulador, geofences y planificación de misiones| Aspectos muy importantes para preparar las pruebas de vuelo|
 
