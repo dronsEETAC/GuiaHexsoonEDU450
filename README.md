@@ -15,7 +15,7 @@ Figura 3: Un par de aplicaciones que pueden desarrollarse para controlar el dron
 Mission Planner también incluye un simulador que permite probar la mayoría de las acciones sin necesidad de volar el dron, de manera que en el momento del vuelo se minimicen las posibilidades de fallo.
 
 El resultado final es un equipo que permite diseñar un gran abanico de actividades formativas en diversas áreas de la ciencia y la tecnología, como pueden ser: mecánica, electrónica, electricidad, física, matemáticas, programación de ordenadores, etc.    
-# 2.	Las actividades
+## 2.	Las actividades
 El proceso de montaje, configuración y preparación para pruebas de vuelo del dron está detalladamente guiado por una secuencia de actividades que se enumeran en la tabla. Cada actividad tiene su guía detallada con explicaciones teóricas (cuando sea necesario), instrucciones precisas, imágenes y vídeos que deben ayudar en el proceso.
 
 | # | Título | Descripción |
