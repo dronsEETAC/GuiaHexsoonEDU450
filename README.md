@@ -1,6 +1,7 @@
 # Guía para el Montaje, configuración y preparación para pruebas de vuelo de un dron Hexsoon EDU 450
 ## 1.	Presentación
 En esta guía se describe, paso a paso, el proceso de montaje, configuración y pruebas de vuelo de un dron. El punto de partida es un kit con todos los componentes necesarios, que se muestra en la figura 1. 
+![Image](https://github.com/user-attachments/assets/842b8bbd-00a6-4751-b6da-0cb329c5aa3e)
  
 Figura 1: El kit 
 El resultado final es el dron que se muestra en la figura 2, bien configurado y preparado para volar. 
