@@ -82,7 +82,7 @@ Como se muestra en las imágenes de la figura 3.1, los motores deben atornillars
 Finalmente, observa la dirección en la que deben colocarse los motores respecto al soporte. La parte donde están los cables debe estar orientada en la dirección que indica la pequeña ranura circular del soporte.   
 
  
- <img src="https://github.com/user-attachments/assets/dd23f606-6bc7-4a55-906a-5751494f98c8" width="500" height="400">      
+ <img src="https://github.com/user-attachments/assets/dd23f606-6bc7-4a55-906a-5751494f98c8" width="400" height="200">      
  	 
 **Figura 3.1:** Montaje de los motores en sus soportes
 
