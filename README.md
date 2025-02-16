@@ -2,12 +2,13 @@
 ## 1.	Presentación
 En esta guía se describe, paso a paso, el proceso de montaje, configuración y pruebas de vuelo de un dron. El punto de partida es un kit con todos los componentes necesarios, que se muestra en la figura 1. 
 ![Image](https://github.com/user-attachments/assets/842b8bbd-00a6-4751-b6da-0cb329c5aa3e)
-<img src="https://github.com/user-attachments/assets/842b8bbd-00a6-4751-b6da-0cb329c5aa3e" width="400" height="200">
+<img src="https://github.com/user-attachments/assets/842b8bbd-00a6-4751-b6da-0cb329c5aa3e" width="400" height="400">
  
 Figura 1: El kit   
 
 El resultado final es el dron que se muestra en la figura 2, bien configurado y preparado para volar.    
 ![Image](https://github.com/user-attachments/assets/f1ae0ac4-1545-4fba-a412-fd283c784590)
+<img src="https://github.com/user-attachments/assets/f1ae0ac4-1545-4fba-a412-fd283c784590" width="400" height="400">
  
 Figura 2: El dron resultante
 
