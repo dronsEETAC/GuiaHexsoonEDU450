@@ -72,7 +72,6 @@ https://www.youtube.com/watch?v=mSSbjo9pYgM
 En la figura 2.1 se muestran todos los componentes que se necesitan para el montaje y configuración del dron. Antes de iniciar el montaje es importante verificar que se dispone de todos esos componentes y herramientas.    
 En este documento explica dónde adquitir el kit y (si se prefiere) dónde encontrar cada uno de los componentes por separado.    
 
-<img src="https://github.com/user-attachments/assets/5d5db94f-36b7-468a-b14c-6687205b72e7" width="500" height="1000">      
-
+<img src="https://github.com/user-attachments/assets/fcbf153a-8615-4830-b53b-d48c41880931" width="500" height="1000">      
 Figura 2.1: Componentes y herramientas necesarias para el montaje del dron
 
