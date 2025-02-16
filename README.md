@@ -119,18 +119,15 @@ Por otro lado, la figura 3.7 (izquierda) determina en qué sentido (CW o CCW) de
 
 Observar también en esta figura que se han añadido extensiones a los cables trenzados de los motores delanteros (naranjas). Estas extensiones facilitarán ciertas conexiones más adelante.
 
-Se puede observar que cada motor tiene sobre la palabra HEXSOON unas flechitas que indican el sentido de giro (estas flechitas ya no aparecen en versiones más recientes del kit). Esta es una ayuda más para confirmar que hemos tomado la decisión correcta. Pero ATENCIÓN: se ha observado que en algunos casos estas flechitas están equivocadas. Lo importante para tomar la decisión correcta es lo que hemos dicho antes: observar la forma de las hélices, determinar cuál debe ser su sentido de giro y colocar los motores en el lugar que corresponde, de acuerdo con la figura 3.7.
-
- 	 
-
+Se puede observar que cada motor tiene sobre la palabra HEXSOON unas flechitas que indican el sentido de giro (estas flechitas ya no aparecen en versiones más recientes del kit). Esta es una ayuda más para confirmar que hemos tomado la decisión correcta. Pero ATENCIÓN: se ha observado que en algunos casos estas flechitas están equivocadas. Lo importante para tomar la decisión correcta es lo que hemos dicho antes: observar la forma de las hélices, determinar cuál debe ser su sentido de giro y colocar los motores en el lugar que corresponde, de acuerdo con la figura 3.7.   
+<img src="https://github.com/user-attachments/assets/eb128a57-a8a5-4ccf-bec5-de371352dd49" width="700" height="200">  
 **Figura 3.7:** Sentido de giro de los motores según su posición
 ### 8. Fijar el motor al brazo
-El resultado de esta operación se muestra en la figura 3.8. No es una operación trivial y requiere cierta habilidad manual.
-
- 
+El resultado de esta operación se muestra en la figura 3.8. No es una operación trivial y requiere cierta habilidad manual.   
+<img src="https://github.com/user-attachments/assets/c01bad3b-34c3-4dfb-8532-2671e05405f0" width="700" height="200">  
 **Figura 3.8:** Motor conectados al extremo del brazo
 
-Para el proyecto de UAS no vamos a utilizar los LEDs así que no te preocupes si no ves el LED en el kit
+Para el proyecto de UAS no vamos a utilizar los LEDs así que no te preocupes si no ves el LED en el kit.   
 
 ### 9. Fijar los brazos a las planchas superior e inferior
 Las imágenes de la figura 3.9 muestran cómo realizar esta operación. Observad de nuevo cómo los siguientes cables deben emerger por la parte superior de la carcasa:
@@ -138,16 +135,13 @@ Las imágenes de la figura 3.9 muestran cómo realizar esta operación. Observad
 ●	Los 4 cables trenzados para controlar los motores.
 ●	El cable POWER2 para alimentar el autopiloto.
 ●	El cable con el conector doble para controlar los LEDs.
-●	El cable para alimentar la Raspberry Pi en un futuro.
-
-
- 	 	 
+●	El cable para alimentar la Raspberry Pi en un futuro.    
+<img src="https://github.com/user-attachments/assets/4e92f2b3-4d2c-420c-b5dc-b71135a71c0d" width="700" height="200">  
 **Figura 3.9:** Fijar  los brazos a las dos planchas
 
 ###10. Separar al máximo posible los cables de la placa de distribución de energía
-Esta operación se puede realizar como se muestra en la figura 3.10. El objetivo es que el posible calentamiento de la placa no pueda afectar a los cables.
-
- 
+Esta operación se puede realizar como se muestra en la figura 3.10. El objetivo es que el posible calentamiento de la placa no pueda afectar a los cables.   
+<img src="https://github.com/user-attachments/assets/e1fc9206-5623-47e2-aa91-37d352502f93" width="700" height="200">  
 **Figura 3.10:** Separar lo máximo posible los cables de la placa de distribución de energía
 
 
