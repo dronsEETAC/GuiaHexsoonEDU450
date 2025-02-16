@@ -70,6 +70,8 @@ https://www.youtube.com/watch?v=mSSbjo9pYgM
 
 ## 2. Actividad #2: Unboxing
 En la figura 2.1 se muestran todos los componentes que se necesitan para el montaje y configuración del dron. Antes de iniciar el montaje es importante verificar que se dispone de todos esos componentes y herramientas.    
-En este documento explica dónde adquitir el kit y (si se prefiere) dónde encontrar cada uno de los componentes por separado.   
+En este documento explica dónde adquitir el kit y (si se prefiere) dónde encontrar cada uno de los componentes por separado.    
+
+<img src="https://github.com/user-attachments/assets/5d5db94f-36b7-468a-b14c-6687205b72e7" width="100" height="500">      
 Figura 2.1: Componentes y herramientas necesarias para el montaje del dron
 
