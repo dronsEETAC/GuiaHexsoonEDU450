@@ -82,18 +82,18 @@ Como se muestra en las imágenes de la figura 3.1, los motores deben atornillars
 Finalmente, observa la dirección en la que deben colocarse los motores respecto al soporte. La parte donde están los cables debe estar orientada en la dirección que indica la pequeña ranura circular del soporte.   
 
  
- 
+ <img src="https://github.com/user-attachments/assets/dd23f606-6bc7-4a55-906a-5751494f98c8" width="500" height="400">      
  	 
 **Figura 3.1:** Montaje de los motores en sus soportes
 
 ### 3. Preparación de los 4 brazos
 La figura 3.2 muestra cómo preparar cada uno de los 4 brazos del dron.
 
- 
+ <img src="https://github.com/user-attachments/assets/786e5283-ce58-45bc-bd96-e9a64110b799" width="300" height="300">      
 **Figura 3.2:** Preparació de los brazos
 ### 4. Conectar los cables de los LEDs a la placa de distribución de energía    
 Las conexiones necesarias se muestran en la figura 3.3.
-
+<img src="https://github.com/user-attachments/assets/aa6690ed-5138-4c73-a3c5-8d6771b0f0ba" width="300" height="300">      
  
 **Figura 3.3:** Conexiones para el control de los LEDs
 
