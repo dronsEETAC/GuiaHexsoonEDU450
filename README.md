@@ -105,7 +105,7 @@ La figura 3.4 indica cómo realizar esta operación. Fíjate que las dos plancha
 La figura 3.5 muestra cómo realizar esta operación. Por un lado, se deben conectar los variadores a los cables de alimentación procedentes de la placa de distribución de energía (esquina superior derecha de la figura 3.5). Por otro lado, el otro extremo de los variadores se debe conectar a los motores, según el sentido de giro, tal y como se indica en la figura 3.6. Es importante tener en cuenta que los motores con punto blanco girarán en sentido antihorario y los motores con punto negro lo harán en sentido horario.   
  <img src="https://github.com/user-attachments/assets/d90dcd36-0036-4a37-84dd-22d711f05ecf" width="300" height="200">     
 **Figura 3.5:** En cada brazo hay que introducir un variador para controlar el motor 
-<img src="https://github.com/user-attachments/assets/e1fc9206-5623-47e2-aa91-37d352502f93" width="400" height="100">     
+<img src="https://github.com/user-attachments/assets/e1fc9206-5623-47e2-aa91-37d352502f93" width="400" height="150">     
 **Figura 3.6:**  Conexión del motor al variador ESC según el sentido de giro (imagen elaborada por los alumnos de Master de drones Júlia y Gerard)
 
 ### 7. Disponer los brazos y motores correctamente en relación con la plancha superior
@@ -120,7 +120,7 @@ Por otro lado, la figura 3.7 (izquierda) determina en qué sentido (CW o CCW) de
 Observar también en esta figura que se han añadido extensiones a los cables trenzados de los motores delanteros (naranjas). Estas extensiones facilitarán ciertas conexiones más adelante.
 
 Se puede observar que cada motor tiene sobre la palabra HEXSOON unas flechitas que indican el sentido de giro (estas flechitas ya no aparecen en versiones más recientes del kit). Esta es una ayuda más para confirmar que hemos tomado la decisión correcta. Pero ATENCIÓN: se ha observado que en algunos casos estas flechitas están equivocadas. Lo importante para tomar la decisión correcta es lo que hemos dicho antes: observar la forma de las hélices, determinar cuál debe ser su sentido de giro y colocar los motores en el lugar que corresponde, de acuerdo con la figura 3.7.   
-<img src="https://github.com/user-attachments/assets/eb128a57-a8a5-4ccf-bec5-de371352dd49" width="400" height="100">  
+<img src="https://github.com/user-attachments/assets/eb128a57-a8a5-4ccf-bec5-de371352dd49" width="400" height="150">  
 **Figura 3.7:** Sentido de giro de los motores según su posición
 ### 8. Fijar el motor al brazo
 El resultado de esta operación se muestra en la figura 3.8. No es una operación trivial y requiere cierta habilidad manual.   
