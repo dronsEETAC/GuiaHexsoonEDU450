@@ -245,9 +245,11 @@ https://youtu.be/ZFuazchCv4o
 Por último, es necesario vincular el transmisor (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cada caso.
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D07qpdApsCAI)](https://www.youtube.com/watch?v=07qpdApsCAI)
-(ACCESS)
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc2Aa_KSdEwo)](https://www.youtube.com/watch?v=c2Aa_KSdEwo)
-(ACCST) 
+(protocolo ACCESS)     
+
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dk5EPJiipXcc)](https://www.youtube.com/watch?v=k5EPJiipXcc)
+(protocolo ACCST)    
+
 ### 7. Prueba
 La prueba consiste en conectar cada uno de los motores y el servo a diferentes canales de la radio para verificar que todo funciona correctamente. El siguiente vídeo muestra cómo hacerlo.
  
