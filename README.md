@@ -193,7 +193,7 @@ De hecho, la tarjeta MicroSD no es imprescindible para el funcionamiento del tra
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqYo99q0HZMg)](https://www.youtube.com/watch?v=qYo99q0HZMg)
 
 ### 5. Calibración de la radio
-Antes de configurar la radio para controlar el dron, es necesario calibrarla. En el siguiente vídeo se muestra cómo realizar esta operación.
+Antes de configurar la radio para controlar el dron, es necesario calibrarla. En el siguiente vídeo se muestra cómo realizar esta operación.      
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DplLWhwmY-rM)](https://www.youtube.com/watch?v=plLWhwmY-rM)
 
 
@@ -222,15 +222,12 @@ ATENCIÓN: Aunque el vídeo no lo muestra, es importante verificar que los stick
 3.	Crear un nuevo modelo (newModel en el vídeo)
 4.	Para la asignación de las palancas del transmisor a los canales, sigue la tabla siguiente:
 
-
-Thr o Throttle	Movimiento vertical de la palanca izquierda: Elevación o descenso del dron.
-	canal 3
-Ail o Roll	Movimiento horizontal de la palanca derecha: Desplazamiento del dron de derecha a izquierda.
-	canal 1
-Ele o Pitch	Movimiento vertical de la palanca derecha: Dirección del dron hacia adelante o hacia atrás.
-	canal 2
-Rud o Yaw	Movimiento horizontal de la palanca izquierda: Rotación del dron sobre su propio eje.
-	canal 4
+| Operación | Descripción | Canal |
+|-----------|-----------|-----------|
+| Thr o Throttle  |Movimiento vertical de la palanca izquierda: Elevación o descenso del dron.| canal 3|
+| Ail o Roll	  |Movimiento horizontal de la palanca derecha: Desplazamiento del dron a derecha e izquierda.| canal 1|
+| Ele o Pitch	  |Movimiento vertical de la palanca derecha: Dirección del dron hacia adelante o hacia atrás.| canal 2|
+| Rud o Yaw  |Movimiento horizontal de la palanca izquierda: Rotación del dron sobre su propio eje.| canal 4|
 
 5.	Asignar el interruptor SB (que tiene tres posiciones) al canal 5.
 6.	Asignar el interruptor SF (que tiene dos posiciones) al canal 7.
@@ -244,10 +241,10 @@ https://youtu.be/ZFuazchCv4o
 
 Por último, es necesario vincular el transmisor (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cada caso.
 
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D07qpdApsCAI)](https://www.youtube.com/watch?v=07qpdApsCAI)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D07qpdApsCAI)](https://www.youtube.com/watch?v=07qpdApsCAI)     
 (protocolo ACCESS)     
 
-[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dk5EPJiipXcc)](https://www.youtube.com/watch?v=k5EPJiipXcc)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dk5EPJiipXcc)](https://www.youtube.com/watch?v=k5EPJiipXcc)     
 (protocolo ACCST)    
 
 ### 7. Prueba
