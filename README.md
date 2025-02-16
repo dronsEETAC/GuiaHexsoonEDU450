@@ -87,8 +87,8 @@ Finalmente, observa la dirección en la que deben colocarse los motores respecto
 **Figura 3.1:** Montaje de los motores en sus soportes
 
 ### 3. Preparación de los 4 brazos
-La figura 3.2 muestra cómo preparar cada uno de los 4 brazos del dron.
-<img src="https://github.com/user-attachments/assets/786e5283-ce58-45bc-bd96-e9a64110b799" width="300" height="300">      
+La figura 3.2 muestra cómo preparar cada uno de los 4 brazos del dron.   
+<img src="https://github.com/user-attachments/assets/786e5283-ce58-45bc-bd96-e9a64110b799" width="300" height="300">       
 **Figura 3.12:** Preparació de los brazos
 ### 4. Conectar los cables de los LEDs a la placa de distribución de energía    
 Las conexiones necesarias se muestran en la figura 3.3.    
