@@ -173,9 +173,8 @@ La señal multiplexada es separada por el receptor, obteniendo así las señales
 **Figura 4.3:** Las 8 salidas del receptor que emiten las señales PWM correspondientes a los 8 canales 
 
 Cada uno de las señales PWM generados por el receptor puede controlar un dispositivo diferente. Dependiendo de la amplitud de los pulsos de la señal (que dependerá de la señal recibida por el canal correspondiente), el motor conectado a este canal girará a más o menos velocidad, o el servomotor adoptará una posición u otra. Esta capacidad de control individualizado de dispositivos mediante señales PWM es fundamental en el funcionamiento de los sistemas controlados por radio, ya que permite una gran variedad de aplicaciones y ajustes precisos en función de las necesidades específicas de cada usuario. Para complementar esta explicación básica, se recomienda ver el vídeo mencionado.
- 
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLyPtzv0y5DE)](https://www.youtube.com/watch?v=LyPtzv0y5DE)
 
-https://www.youtube.com/watch?v=LyPtzv0y5DE
 
 ### 3. Cargar la batería del transmisor
 Para cargar la batería del transmisor, solo necesitas conectarlo a una computadora mediante USB. El transmisor viene con el cable necesario, que se conecta a la parte posterior del transmisor y a cualquier puerto USB de la computadora. La luz indicadora se pondrá en verde, como se muestra en la figura 4.4.    
@@ -191,28 +190,25 @@ La figura 4.5 muestra cómo insertar la tarjeta MicroSD en el transmisor.
 
 De hecho, la tarjeta MicroSD no es imprescindible para el funcionamiento del transmisor. Sin embargo, la incorporación de la tarjeta amplía notablemente la capacidad de almacenamiento, lo que permite agregar sonidos, música y elementos que pueden mejorar mucho la experiencia del usuario del transmisor. En esta guía no dedicaremos más tiempo a esta cuestión. Se pueden encontrar más detalles en este vídeo:
  
-
-https://www.youtube.com/watch?v=qYo99q0HZMg
-
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqYo99q0HZMg)](https://www.youtube.com/watch?v=qYo99q0HZMg)
 
 ### 5. Calibración de la radio
 Antes de configurar la radio para controlar el dron, es necesario calibrarla. En el siguiente vídeo se muestra cómo realizar esta operación.
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DplLWhwmY-rM)](https://www.youtube.com/watch?v=plLWhwmY-rM)
 
-https://youtu.be/plLWhwmY-rM
 
 ### 6. Configuración
 Para controlar el dron desde el transmisor de radio, necesitamos crear un modelo que asocie cada uno de los actuadores que queremos utilizar con uno de los canales del transmisor. Para crear el modelo, se puede utilizar el software Open TX Companion que debe instalarse en la computadora (descargar desde https://www.open-tx.org/ ).
 
 Para crear el modelo, primero debes poner la radio en modo USB, como se muestra en este vídeo.
 
- 
-https://youtu.be/Z0F_QMYElzo
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZ0F_QMYElzo)](https://www.youtube.com/watch?v=Z0F_QMYElzo) 
 
 Ahora ya se puede crear el modelo. El vídeo muestra cómo hacerlo.
 
  
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DeyahLlB3fH0)](https://www.youtube.com/watch?v=eyahLlB3fH0)
 
-https://youtu.be/eyahLlB3fH0
 
 Estos son los pasos que se pueden ver en el vídeo:
 
@@ -248,15 +244,15 @@ https://youtu.be/ZFuazchCv4o
 
 Por último, es necesario vincular el transmisor (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cada caso.
 
- 
-(ACCESS) https://youtu.be/07qpdApsCAI
-
-(ACCST) https://youtu.be/k5EPJiipXcc
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D07qpdApsCAI)](https://www.youtube.com/watch?v=07qpdApsCAI)
+(ACCESS)
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc2Aa_KSdEwo)](https://www.youtube.com/watch?v=c2Aa_KSdEwo)
+(ACCST) 
 ### 7. Prueba
 La prueba consiste en conectar cada uno de los motores y el servo a diferentes canales de la radio para verificar que todo funciona correctamente. El siguiente vídeo muestra cómo hacerlo.
  
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1nugfbtLK9Q)](https://www.youtube.com/watch?v=1nugfbtLK9Q)
 
-https://youtu.be/1nugfbtLK9Q
 
 Esta es la secuencia de pasos que se pueden ver en el vídeo:
 1.	Se conecta el conector T a la batería.
