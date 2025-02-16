@@ -1,5 +1,5 @@
 # Guía para el Montaje, configuración y preparación para pruebas de vuelo de un dron Hexsoon EDU 450
-## 1.	Presentación
+## Presentación
 En esta guía se describe, paso a paso, el proceso de montaje, configuración y pruebas de vuelo de un dron. El punto de partida es un kit con todos los componentes necesarios, que se muestra en la figura 0.1.  
 <img src="https://github.com/user-attachments/assets/842b8bbd-00a6-4751-b6da-0cb329c5aa3e" width="400" height="300">      
 **Figura 0.1:** El kit   
@@ -15,7 +15,7 @@ El dron es un cuatrimotor que incorpora un piloto automático. El dron puede ser
 Mission Planner también incluye un simulador que permite probar la mayoría de las acciones sin necesidad de volar el dron, de manera que en el momento del vuelo se minimicen las posibilidades de fallo.
 
 El resultado final es un equipo que permite diseñar un gran abanico de actividades formativas en diversas áreas de la ciencia y la tecnología, como pueden ser: mecánica, electrónica, electricidad, física, matemáticas, programación de ordenadores, etc.    
-## 2.	Las actividades
+## Las actividades
 El proceso de montaje, configuración y preparación para pruebas de vuelo del dron está detalladamente guiado por una secuencia de actividades que se enumeran en la tabla. Cada actividad tiene su guía detallada con explicaciones teóricas (cuando sea necesario), instrucciones precisas, imágenes y vídeos que deben ayudar en el proceso.
 
 | # | Título | Descripción |
@@ -29,7 +29,7 @@ El proceso de montaje, configuración y preparación para pruebas de vuelo del d
 | #7   | Más calibraciones|Últimas calibraciones para dejar el dron preparado para pruebas de vuelo|
 | #8   | Simulador, geofences y planificación de misiones| Aspectos muy importantes para preparar las pruebas de vuelo|
 
-## 3. Actividad #1: Lo más básico de los drones y sus componentes
+## Actividad #1: Lo más básico de los drones y sus componentes
 ### 1. Presentación
 En esta actividad se describen los aspectos más básicos de un dron y de los elementos que lo componen. El objetivo es ofrecer a los participantes en el taller un marco global, sencillo pero completo que les permita ubicar correctamente cada una de las actividades del taller.
 
@@ -68,13 +68,13 @@ https://www.youtube.com/watch?v=m7THu-W-kjE&list=PLYsWjANuAm4rSLU7PQczfpQ9B4KbcP
 Modos de vuelo:	 
 https://www.youtube.com/watch?v=mSSbjo9pYgM
 
-## 2. Actividad #2: Unboxing
+## Actividad #2: Unboxing
 En la figura 2.1 se muestran todos los componentes que se necesitan para el montaje y configuración del dron. Antes de iniciar el montaje es importante verificar que se dispone de todos esos componentes y herramientas.    
 En este documento explica dónde adquitir el kit y (si se prefiere) dónde encontrar cada uno de los componentes por separado.   
 <img src="https://github.com/user-attachments/assets/fcbf153a-8615-4830-b53b-d48c41880931" width="400" height="1000">      
 **Figura 2.1:** Componentes y herramientas necesarias para el montaje del dron
  
-## 3. Actividad #3: Montaje de la carcasa (parte 1)
+## Actividad #3: Montaje de la carcasa (parte 1)
 ### 1. Presentación
 En esta actividad se dan los primeros pasos del montaje de la carcasa del dron (brazos con motores, plataformas, placa de distribución, etc.). Es una actividad ideal para personas habilidosas, que se puede hacer con buena música de fondo.   
 ### 2. Preparación de los 4 motores   
@@ -146,4 +146,144 @@ Esta operación se puede realizar como se muestra en la figura 3.10. El objetivo
 **Figura 3.10:** Separar lo máximo posible los cables de la placa de distribución de energía
 
 
+## Actividad #4: Radio Control
+### 1. Presentación
+En esta actividad se configura la emisora de radio con la que controlaremos los motores y el servo. Para ello, necesitaremos los elementos que se indican en la figura 4.1.
+
+El armazón resultante de la actividad anterior	 
+Emisora de radio	 
+MicroSD (Normalmente ya dentro de la emisora)	 
+Receptor de radio	 
+Cable UBEC para alimentar el receptor de radio	 
+El servo	 
+El connector en T	 
+La batería	 
+
+**Figura 4.1:** Componentes necesarios para esta actividad
+
+### 2. Conceptos básicos
+La emisora de radio puede generar señales de radio a través de hasta 24 canales. Estos canales se multiplexan usando flexible division multiplexing.
+
+La señal que se emite por cada canal se controla desde uno de los actuadores de la emisora (ver la figura 4.2): palancas (sticks), interruptores (switches SA, SB, etc.) o botones (knobs S1, S2). Por ejemplo, moviendo una de las palancas se puede variar la señal que se emite por uno de los canales.
+
+
+ 
+**Figura 4.2:** Los diferentes actuadores de la emisora de radio
+
+La señal multiplexada es separada por el receptor, obteniendo así las señales de cada uno de los canales. La señal de cada canal se convierte en una señal PWM, que se emite a través de la salida del receptor correspondiente a este canal (hasta 8 canales diferentes en el receptor que vamos a utilizar). Ver la figura 4.3.
+
+ 
+Figura 4.3: Las 8 salidas del receptor que emiten las señales PWM correspondientes a los 8 canales 
+
+Cada uno de las señales PWM generados por el receptor puede controlar un dispositivo diferente. Dependiendo de la amplitud de los pulsos de la señal (que dependerá de la señal recibida por el canal correspondiente), el motor conectado a este canal girará a más o menos velocidad, o el servomotor adoptará una posición u otra. Esta capacidad de control individualizado de dispositivos mediante señales PWM es fundamental en el funcionamiento de los sistemas controlados por radio, ya que permite una gran variedad de aplicaciones y ajustes precisos en función de las necesidades específicas de cada usuario. Para complementar esta explicación básica, se recomienda ver el vídeo mencionado.
+ 
+
+https://www.youtube.com/watch?v=LyPtzv0y5DE
+
+### 3. Cargar la batería del transmisor
+Para cargar la batería del transmisor, solo necesitas conectarlo a una computadora mediante USB. El transmisor viene con el cable necesario, que se conecta a la parte posterior del transmisor y a cualquier puerto USB de la computadora. La luz indicadora se pondrá en verde, como se muestra en la figura 4.4.
+
+ 
+**Figura 4.4:** Carga de la batería de la emisora
+
+Como indica el documento pequeño que viene con el transmisor, la luz verde se apagará cuando la batería esté completamente cargada.
+
+### 4. Insertar la tarjeta MicroSD
+La figura 5 muestra cómo insertar la tarjeta MicroSD en el transmisor.
+
+ 
+**Figura 4.5:** Inserción de la MicroSD en la emisora
+
+De hecho, la tarjeta MicroSD no es imprescindible para el funcionamiento del transmisor. Sin embargo, la incorporación de la tarjeta amplía notablemente la capacidad de almacenamiento, lo que permite agregar sonidos, música y elementos que pueden mejorar mucho la experiencia del usuario del transmisor. En esta guía no dedicaremos más tiempo a esta cuestión. Se pueden encontrar más detalles en este vídeo:
+ 
+
+https://www.youtube.com/watch?v=qYo99q0HZMg
+
+
+### 5. Calibración de la radio
+Antes de configurar la radio para controlar el dron, es necesario calibrarla. En el siguiente vídeo se muestra cómo realizar esta operación.
+
+https://youtu.be/plLWhwmY-rM
+
+### 6. Configuración
+Para controlar el dron desde el transmisor de radio, necesitamos crear un modelo que asocie cada uno de los actuadores que queremos utilizar con uno de los canales del transmisor. Para crear el modelo, se puede utilizar el software Open TX Companion que debe instalarse en la computadora (descargar desde https://www.open-tx.org/ ).
+
+Para crear el modelo, primero debes poner la radio en modo USB, como se muestra en este vídeo.
+
+ 
+https://youtu.be/Z0F_QMYElzo
+
+Ahora ya se puede crear el modelo. El vídeo muestra cómo hacerlo.
+
+ 
+
+https://youtu.be/eyahLlB3fH0
+
+Estos son los pasos que se pueden ver en el vídeo:
+
+1.	Iniciar Open TX.
+2.	Cargar los modelos que ya tiene en ese momento el transmisor (que está conectado a la computadora mediante USB).
+
+ATENCIÓN: Aunque el vídeo no lo muestra, es importante verificar que los sticks de la radio estén configurados correctamente (en Estados Unidos la configuración de los sticks es diferente a la de Europa). Las dos imágenes de la figura 4.6 indican cómo realizar esta verificación.
+
+ 
+ 
+
+**Figura 4.6:** Verificar que los sticks de la emisora están en el modo correcto
+
+3.	Crear un nuevo modelo (newModel en el vídeo)
+4.	Para la asignación de las palancas del transmisor a los canales, sigue la tabla siguiente:
+
+
+Thr o Throttle	Movimiento vertical de la palanca izquierda: Elevación o descenso del dron.
+	canal 3
+Ail o Roll	Movimiento horizontal de la palanca derecha: Desplazamiento del dron de derecha a izquierda.
+	canal 1
+Ele o Pitch	Movimiento vertical de la palanca derecha: Dirección del dron hacia adelante o hacia atrás.
+	canal 2
+Rud o Yaw	Movimiento horizontal de la palanca izquierda: Rotación del dron sobre su propio eje.
+	canal 4
+
+5.	Asignar el interruptor SB (que tiene tres posiciones) al canal 5.
+6.	Asignar el interruptor SF (que tiene dos posiciones) al canal 7.
+7.	Simular el modelo para verificar que es correcto.
+8.	Guardar el modelo en el transmisor.
+
+Aunque el vídeo no lo muestre, es conveniente asignar el interruptor SC (con tres posiciones) al canal 6. Más adelante se indicará para qué se necesitarán los interruptores SB, SC y SF.
+
+También puedes crear un modelo utilizando directamente el radiotransmisor, como se muestra en este vídeo:
+https://youtu.be/ZFuazchCv4o
+
+Por último, es necesario vincular el transmisor (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cada caso.
+
+ 
+(ACCESS) https://youtu.be/07qpdApsCAI
+
+(ACCST) https://youtu.be/k5EPJiipXcc
+### 7. Prueba
+La prueba consiste en conectar cada uno de los motores y el servo a diferentes canales de la radio para verificar que todo funciona correctamente. El siguiente vídeo muestra cómo hacerlo.
+ 
+
+https://youtu.be/1nugfbtLK9Q
+
+Esta es la secuencia de pasos que se pueden ver en el vídeo:
+1.	Se conecta el conector T a la batería.
+2.	Se conecta el conector UBEC al conector T.
+3.	Se conecta el conector UBEC para alimentar el receptor.
+4.	El servo se conecta al canal 5, que se controla mediante el interruptor SB.
+5.	El servo se conecta al canal 7, que se controla mediante el interruptor SF.
+6.	Se conecta uno de los motores al canal 1, que se controla con el movimiento de roll (movimiento horizontal de la palanca derecha). Se utiliza uno de los cables trenzados como extensión para ayudar.
+7.	Se conecta la placa de distribución de energía a la batería para alimentar los motores.
+8.	Se hace girar el motor con el movimiento de roll.
+9.	Se conecta el mismo motor al canal 3, que se controla con el movimiento de throttle (movimiento vertical de la palanca izquierda). Se observa el diferente comportamiento de la palanca de throttle y la palanca para el roll.
+10.	Se verifica que los motores giren en el sentido correcto. El vídeo muestra que este no es el caso en uno de los motores. Es el momento de cambiar las conexiones del variador ESC con el motor hasta conseguir que el sentido de giro del motor sea el correcto. Esta es una operación molesta porque hay que desatornillar el brazo y desconectar el LED para poder cambiar las conexiones del variador al motor.
+11.	Se sigue el mismo proceso con todos los motores.
+8. Invertir el movimiento de Pitch
+La configuración predeterminada del piloto automático hace que el pitch del dron esté invertido. Es decir, cuando movemos la palanca de la derecha hacia adelante, el dron se mueve hacia atrás. Este comportamiento es poco natural, por lo que es necesario invertir el canal del pitch en la emisora. Esto se puede hacer directamente en la radio, como muestra la figura 4.7. (Este proceso lo has podido ver en uno de los videos anteriores)
+
+ 	 
+ 	 
+ 	 
+
+### Figura 4.7: Inversión de la señal de pitch
 
