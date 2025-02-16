@@ -274,6 +274,8 @@ Esta es la secuencia de pasos que se pueden ver en el vídeo:
 La configuración predeterminada del piloto automático hace que el pitch del dron esté invertido. Es decir, cuando movemos la palanca de la derecha hacia adelante, el dron se mueve hacia atrás. Este comportamiento es poco natural, por lo que es necesario invertir el canal del pitch en la emisora. Esto se puede hacer directamente en la radio, como muestra la figura 4.7. (Este proceso lo has podido ver en uno de los videos anteriores).    
 <img src="https://github.com/user-attachments/assets/3a5fb2e4-59d4-4ef9-801f-3b3e06ad2740" width="400" height="250">    
 **Figura 4.7:** Inversión de la señal de pitch
+## Siguiente seccion     
+
 
 
 
