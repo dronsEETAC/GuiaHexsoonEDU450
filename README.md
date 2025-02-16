@@ -9,7 +9,7 @@ El resultado final es el dron que se muestra en la figura 2, bien configurado y 
 Figura 2: El dron resultante
 
 El dron es un cuatrimotor que incorpora un piloto automático. El dron puede ser guiado manualmente a través de la emisora de radio, pero también desde una estación de tierra (por ejemplo, un portátil) que ejecute el software Mission Planner. Usando ese mismo software es posible también crear misiones en forma de secuencia de puntos a recorrer de manera automática por el dron. Finalmente, también es posible desarrollar nuestra propia estación de tierra (por ejemplo, en Python), lo cual multiplica las posibilidades de aprendizaje, experimentación y también diversión. La figura 3 muestra dos ejemplos. A la izquierda se muestra la pantalla de una web app que permite controlar el dron desde cualquier teléfono móvil. A la derecha se muestra una imagen de una aplicación de escritorio que permite controlar el dron con las posiciones de la mano.   
-<img src="https://github.com/user-attachments/assets/c8f92816-01e5-4a30-afb5-701f54207c97" width="400" height="300">      
+<img src="https://github.com/user-attachments/assets/c8f92816-01e5-4a30-afb5-701f54207c97" width="500" height="200">      
 Figura 3: Un par de aplicaciones que pueden desarrollarse para controlar el dron 
 
 Mission Planner también incluye un simulador que permite probar la mayoría de las acciones sin necesidad de volar el dron, de manera que en el momento del vuelo se minimicen las posibilidades de fallo.
