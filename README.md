@@ -74,5 +74,86 @@ En este documento explica dónde adquitir el kit y (si se prefiere) dónde encon
 <img src="https://github.com/user-attachments/assets/fcbf153a-8615-4830-b53b-d48c41880931" width="500" height="1500">      
 **Figura 2.1:** Componentes y herramientas necesarias para el montaje del dron
  
+## 3. Actividad #3: Montaje de la carcasa (parte 1)
+###1. Presentación
+En esta actividad se dan los primeros pasos del montaje de la carcasa del dron (brazos con motores, plataformas, placa de distribución, etc.). Es una actividad ideal para personas habilidosas, que se puede hacer con buena música de fondo.   
+###2. Preparación de los 4 motores   
+Como se muestra en las imágenes de la figura 3.1, los motores deben atornillarse a los soportes. Hay dos soportes de color naranja (que irán en la parte delantera del dron) y dos soportes negros (parte trasera). Es muy importante observar que hay dos motores que tienen un punto blanco en el eje y dos que no lo tienen. Debe haber un motor con punto blanco en un soporte naranja y el otro con punto blanco en un soporte negro.   
+Finalmente, observa la dirección en la que deben colocarse los motores respecto al soporte. La parte donde están los cables debe estar orientada en la dirección que indica la pequeña ranura circular del soporte.   
+
+ 
+ 
+ 	 
+**Figura 3.1:** Montaje de los motores en sus soportes
+
+###3. Preparación de los 4 brazos
+La figura 3.2 muestra cómo preparar cada uno de los 4 brazos del dron.
+
+ 
+**Figura 3.2:** Preparació de los brazos
+###4. Conectar los cables de los LEDs a la placa de distribución de energía    
+Las conexiones necesarias se muestran en la figura 3.3.
+
+ 
+**Figura 3.3:** Conexiones para el control de los LEDs
+
+Se debe conectar cada uno de los cuatro cables de colores (uno por LED), el cable POWER2 para alimentar el autopiloto (que está en el kit del Orange Cube) y el conector doble necesario para el control de los LEDs. Observad cómo se han protegido con cinta aislante negra estos dos últimos cables para evitar el roce del cable con los bordes de la plancha negra a la que se atornillará la placa de distribución de energía.    
+###5. Atornillar la placa de distribución de energía a la plancha superior
+La figura 3.4 indica cómo realizar esta operación. Fíjate que las dos planchas negras que vienen en el kit Hexsoon son diferentes. La superior es la mostrada en la figura. Es importante respetar la colocación exacta de la placa sobre la plancha y su orientación. Tanto el cable POWER2 como el conector doble de control de los LEDs deben salir por la parte superior de la plancha.
+
+ 
+**Figura 3.4:** Colocación de la placa de distribución de energía en la plancha superior 
+
+###6. Introducir en cada brazo un variador ESC 
+La figura 3.5 muestra cómo realizar esta operación. Por un lado, se deben conectar los variadores a los cables de alimentación procedentes de la placa de distribución de energía (esquina superior derecha de la figura 3.5). Por otro lado, el otro extremo de los variadores se debe conectar a los motores, según el sentido de giro, tal y como se indica en la figura 3.6. Es importante tener en cuenta que los motores con punto blanco girarán en sentido antihorario y los motores con punto negro lo harán en sentido horario.
+
+ 
+**Figura 3.5:** En cada brazo hay que introducir un variador para controlar el motor 
+
+ 
+**Figura 3.6:**  Conexión del motor al variador ESC según el sentido de giro (imagen elaborada por los alumnos de Master de drones Júlia y Gerard)
+
+###7. Disponer los brazos y motores correctamente en relación con la plancha superior
+Este es un paso sencillo pero muy importante, ya que decisiones incorrectas pueden causar errores graves en el momento de las pruebas de vuelo.
+
+Ahora necesitaremos tener a mano las hélices que se enroscarán en los motores. Se puede observar que tenemos dos hélices con un punto blanco, que solo se pueden enroscar en los motores con el punto blanco, y dos hélices sin este punto, para los otros dos motores.
+
+Una simple observación de cada hélice determina en qué dirección debe girar para que la hélice empuje el aire que la rodea hacia abajo y, como nos enseñó Newton, se genere la fuerza de sustentación que empuja la hélice hacia arriba. En concreto, las hélices con el punto blanco deben girar en sentido contrario al de las agujas del reloj (counterclockwise o CCW) y las que no tienen este punto en sentido de las agujas del reloj (clockwise o CW).
+
+Por otro lado, la figura 3.7 (izquierda) determina en qué sentido (CW o CCW) debe girar cada motor según su posición en la carcasa. Recordemos que los motores 1 y 3 de la figura, que son los delanteros, están fijados a los soportes de color naranja. A la vista de la figura 3.6 queda claro que los motores con punto blanco (que son los que giran en sentido CCW) deben ocupar las posiciones 1 y 2. Esta disposición se muestra también en la figura 3.7 (derecha).
+
+Observar también en esta figura que se han añadido extensiones a los cables trenzados de los motores delanteros (naranjas). Estas extensiones facilitarán ciertas conexiones más adelante.
+
+Se puede observar que cada motor tiene sobre la palabra HEXSOON unas flechitas que indican el sentido de giro (estas flechitas ya no aparecen en versiones más recientes del kit). Esta es una ayuda más para confirmar que hemos tomado la decisión correcta. Pero ATENCIÓN: se ha observado que en algunos casos estas flechitas están equivocadas. Lo importante para tomar la decisión correcta es lo que hemos dicho antes: observar la forma de las hélices, determinar cuál debe ser su sentido de giro y colocar los motores en el lugar que corresponde, de acuerdo con la figura 3.7.
+
+ 	 
+
+**Figura 3.7:** Sentido de giro de los motores según su posición
+###8. Fijar el motor al brazo
+El resultado de esta operación se muestra en la figura 3.8. No es una operación trivial y requiere cierta habilidad manual.
+
+ 
+**Figura 3.8:** Motor conectados al extremo del brazo
+
+Para el proyecto de UAS no vamos a utilizar los LEDs así que no te preocupes si no ves el LED en el kit
+
+###9. Fijar los brazos a las planchas superior e inferior
+Las imágenes de la figura 3.9 muestran cómo realizar esta operación. Observad de nuevo cómo los siguientes cables deben emerger por la parte superior de la carcasa:
+
+●	Los 4 cables trenzados para controlar los motores.
+●	El cable POWER2 para alimentar el autopiloto.
+●	El cable con el conector doble para controlar los LEDs.
+●	El cable para alimentar la Raspberry Pi en un futuro.
+
+
+ 	 	 
+**Figura 3.9:** Fijar  los brazos a las dos planchas
+
+###10. Separar al máximo posible los cables de la placa de distribución de energía
+Esta operación se puede realizar como se muestra en la figura 3.10. El objetivo es que el posible calentamiento de la placa no pueda afectar a los cables.
+
+ 
+**Figura 3.10:** Separar lo máximo posible los cables de la placa de distribución de energía
+
 
 
