@@ -35,9 +35,9 @@ En esta actividad se describen los aspectos más básicos de un dron y de los el
 
 ### 2. Vídeo introductorio
 El vídeo siguiente describe estos aspectos básicos.
- 
 
-https://youtu.be/c2Aa_KSdEwo
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dc2Aa_KSdEwo)](https://www.youtube.com/watch?v=c2Aa_KSdEwo)
+
 ### 3. Videos complementarios
 Los vídeos que aparecen a continuación profundizan en muchos de los conceptos y componentes que se mencionan en el vídeo introductorio. No es necesario mirarlos antes de comenzar. Pero es interesante tener presente que están por si conviene en algún momento revisar los conceptos con un poco más de profundidad.
 
