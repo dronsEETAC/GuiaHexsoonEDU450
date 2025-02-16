@@ -88,13 +88,11 @@ Finalmente, observa la dirección en la que deben colocarse los motores respecto
 
 ### 3. Preparación de los 4 brazos
 La figura 3.2 muestra cómo preparar cada uno de los 4 brazos del dron.
-
- <img src="https://github.com/user-attachments/assets/786e5283-ce58-45bc-bd96-e9a64110b799" width="300" height="300">      
-**Figura 3.2:** Preparació de los brazos
+<img src="https://github.com/user-attachments/assets/786e5283-ce58-45bc-bd96-e9a64110b799" width="300" height="300">      
+**Figura 3.12:** Preparació de los brazos
 ### 4. Conectar los cables de los LEDs a la placa de distribución de energía    
-Las conexiones necesarias se muestran en la figura 3.3.
+Las conexiones necesarias se muestran en la figura 3.3.    
 <img src="https://github.com/user-attachments/assets/aa6690ed-5138-4c73-a3c5-8d6771b0f0ba" width="300" height="300">      
- 
 **Figura 3.3:** Conexiones para el control de los LEDs
 
 Se debe conectar cada uno de los cuatro cables de colores (uno por LED), el cable POWER2 para alimentar el autopiloto (que está en el kit del Orange Cube) y el conector doble necesario para el control de los LEDs. Observad cómo se han protegido con cinta aislante negra estos dos últimos cables para evitar el roce del cable con los bordes de la plancha negra a la que se atornillará la placa de distribución de energía.    
