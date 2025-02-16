@@ -148,17 +148,8 @@ Esta operación se puede realizar como se muestra en la figura 3.10. El objetivo
 
 ## Actividad #4: Radio Control
 ### 1. Presentación
-En esta actividad se configura la emisora de radio con la que controlaremos los motores y el servo. Para ello, necesitaremos los elementos que se indican en la figura 4.1.
-
-El armazón resultante de la actividad anterior	 
-Emisora de radio	 
-MicroSD (Normalmente ya dentro de la emisora)	 
-Receptor de radio	 
-Cable UBEC para alimentar el receptor de radio	 
-El servo	 
-El connector en T	 
-La batería	 
-
+En esta actividad se configura la emisora de radio con la que controlaremos los motores y el servo. Para ello, necesitaremos los elementos que se indican en la figura 4.1.    
+<img src="https://github.com/user-attachments/assets/9c61cbae-3a80-4b10-9457-397b406501bb" width="300" height="1000">   
 **Figura 4.1:** Componentes necesarios para esta actividad
 
 ### 2. Conceptos básicos
