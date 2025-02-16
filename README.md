@@ -132,10 +132,10 @@ Para el proyecto de UAS no vamos a utilizar los LEDs así que no te preocupes si
 ### 9. Fijar los brazos a las planchas superior e inferior
 Las imágenes de la figura 3.9 muestran cómo realizar esta operación. Observad de nuevo cómo los siguientes cables deben emerger por la parte superior de la carcasa:
 
-●	Los 4 cables trenzados para controlar los motores.
-●	El cable POWER2 para alimentar el autopiloto.
-●	El cable con el conector doble para controlar los LEDs.
-●	El cable para alimentar la Raspberry Pi en un futuro.    
+* Los 4 cables trenzados para controlar los motores.
+* El cable POWER2 para alimentar el autopiloto.
+* El cable con el conector doble para controlar los LEDs.
+* El cable para alimentar la Raspberry Pi en un futuro.    
 <img src="https://github.com/user-attachments/assets/4e92f2b3-4d2c-420c-b5dc-b71135a71c0d" width="700" height="200">  
 **Figura 3.9:** Fijar  los brazos a las dos planchas
 
