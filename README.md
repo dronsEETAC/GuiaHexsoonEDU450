@@ -276,3 +276,4 @@ La configuración predeterminada del piloto automático hace que el pitch del dr
 **Figura 4.7:** Inversión de la señal de pitch
 
 
+
