@@ -29,7 +29,7 @@ El proceso de montaje, configuración y preparación para pruebas de vuelo del d
 | #7   | Más calibraciones|Últimas calibraciones para dejar el dron preparado para pruebas de vuelo|
 | #8   | Simulador, geofences y planificación de misiones| Aspectos muy importantes para preparar las pruebas de vuelo|
 
-## 3. Actividad 1: Lo más básico de los drones y sus componentes
+## 3. Actividad #1: Lo más básico de los drones y sus componentes
 ### 1. Presentación
 En esta actividad se describen los aspectos más básicos de un dron y de los elementos que lo componen. El objetivo es ofrecer a los participantes en el taller un marco global, sencillo pero completo que les permita ubicar correctamente cada una de las actividades del taller.
 
@@ -70,8 +70,9 @@ https://www.youtube.com/watch?v=mSSbjo9pYgM
 
 ## 2. Actividad #2: Unboxing
 En la figura 2.1 se muestran todos los componentes que se necesitan para el montaje y configuración del dron. Antes de iniciar el montaje es importante verificar que se dispone de todos esos componentes y herramientas.    
-En este documento explica dónde adquitir el kit y (si se prefiere) dónde encontrar cada uno de los componentes por separado.    
-
+En este documento explica dónde adquitir el kit y (si se prefiere) dónde encontrar cada uno de los componentes por separado.   
 <img src="https://github.com/user-attachments/assets/fcbf153a-8615-4830-b53b-d48c41880931" width="500" height="1500">      
 **Figura 2.1:** Componentes y herramientas necesarias para el montaje del dron
+ 
+
 
