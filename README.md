@@ -29,3 +29,42 @@ El proceso de montaje, configuración y preparación para pruebas de vuelo del d
 | #7   | Más calibraciones|Últimas calibraciones para dejar el dron preparado para pruebas de vuelo|
 | #8   | Simulador, geofences y planificación de misiones| Aspectos muy importantes para preparar las pruebas de vuelo|
 
+## 3. Actividad 1: Lo más básico de los drones y sus componentes
+### 1. Presentación
+En esta actividad se describen los aspectos más básicos de un dron y de los elementos que lo componen. El objetivo es ofrecer a los participantes en el taller un marco global, sencillo pero completo que les permita ubicar correctamente cada una de las actividades del taller.
+
+### 2. Vídeo introductorio
+El vídeo siguiente describe estos aspectos básicos.
+ 
+
+https://youtu.be/c2Aa_KSdEwo
+### 3. Videos complementarios
+Los vídeos que aparecen a continuación profundizan en muchos de los conceptos y componentes que se mencionan en el vídeo introductorio. No es necesario mirarlos antes de comenzar. Pero es interesante tener presente que están por si conviene en algún momento revisar los conceptos con un poco más de profundidad.
+
+Radio control	 
+https://www.youtube.com/watch?v=LyPtzv0y5DE
+
+ESC	 
+https://www.youtube.com/watch?v=OZNxbxL7cdc
+
+Motores Brushless 	 
+https://www.youtube.com/watch?v=uLutMoh4Ttg
+
+Conexiones para radio control	 
+https://www.youtube.com/watch?v=GbUMC8h2uhU&t=8s
+
+Configuración de la emisora de radio	 
+https://www.youtube.com/watch?v=azs1wmr4c7w
+
+Flight controllers vs 
+flight computers	 
+https://www.youtube.com/watch?v=PlKeFj5teo4
+
+Mission Planner	 
+https://www.youtube.com/watch?v=z_sZUOrnfY8&t=3s
+
+El autopiloto	 
+https://www.youtube.com/watch?v=m7THu-W-kjE&list=PLYsWjANuAm4rSLU7PQczfpQ9B4KbcPWsI&index=1
+
+Modos de vuelo	 
+
