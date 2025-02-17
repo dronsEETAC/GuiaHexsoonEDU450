@@ -380,7 +380,6 @@ La figura 6.9 ilustra esta operación. Observen que como medida de sujeción adi
 Es el momento de fijar bien todos los elementos a la carcasa (receptor de radio, radio de telemetría), utilizando cinta de Velcro y bridas, tal como muestran las imágenes de la figura 6.10.   
 <img src="https://github.com/user-attachments/assets/28e92c9f-ef12-440b-bc09-2c51d551c75a" width="400" height="200">   	   	 	 
 **Figura 6.10:** Fijación de algunos elementos al armazón
-
-
+## Siguiente
 
 
