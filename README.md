@@ -339,7 +339,7 @@ Varios de los dispositivos se conectarán al autopiloto. La figura 6.2 muestra l
 Para este paso, es recomendable observar el vídeo al minuto 4:30. Las imágenes de la figura 6.3 pueden ser de ayuda.    
 
 ATENCIÓN: Es crucial que el autopiloto quede perfectamente centrado en la plancha superior. El centro geométrico del cubo naranja debería coincidir con el centro geométrico de la plancha.    
- <img src="https://github.com/user-attachments/assets/f6aaa27f-d478-448d-8b48-eb5b2330f7ae" width="400" height="200">    
+ <img src="https://github.com/user-attachments/assets/f6aaa27f-d478-448d-8b48-eb5b2330f7ae" width="400" height="250">    
 **Figura 6.3:** Fijar el autopiloto a la plancha superior
 
 ### 3. Conectar el receptor de radio al autopiloto y alimentar el autopiloto    
@@ -354,8 +354,7 @@ Para este paso se recomienda ver el vídeo en el minuto 6:25. Es importante tene
 
 Recuerda que los motores colocados en los soportes naranjas (los motores delanteros) tienen unas extensiones que pueden facilitar esta conexión. Es perfectamente posible que la conexión se pueda hacer sin la ayuda de estas extensiones, lo cual es preferible para que el "lío" de cables sea el menor posible.     
 <img src="https://github.com/user-attachments/assets/9e2d335d-9077-4b1a-8ce6-c7ac2da91d9a" width="400" height="250">   	 
-**Figura 6.5:** Connexión de los motores al autopiloto  
-
+**Figura 6.5:** Connexión de los motores al autopiloto    
 ### 5. Instalar el receptor GPS
 El receptor GPS debe colocarse en la parte delantera de la placa superior. Las imágenes de la figura 6.6 pueden ayudar en este paso.
 Observa que el cable negro debe pasar por el interior del soporte. Este cable tiene dos conectores. Aunque solo es necesario conectar el con cables rojos/negros a CAN1 (como se muestra en la imagen derecha), se recomienda conectar también el otro conector (blanco/verde) a CAN2 (cosa que no se muestra en la imagen derecha).
