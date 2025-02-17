@@ -374,13 +374,11 @@ Como se muestra en la figura 6.8, el zumbador se conecta a la entrada USB del au
 **Figura 6.8:** Connexión del buzzer      
 ### 8. Incorporar las tiras de Velcro y las cintas que se usarán para fijar la batería
 La figura 6.9 ilustra esta operación. Observen que como medida de sujeción adicional se coloca cinta de Velcro.
- 	 
+<img src="https://github.com/user-attachments/assets/e5990d57-50b8-4ced-a784-5ff66f3aa3e4" width="400" height="200">   	   
 **Figura 6.9:** Colocación de las cintras para sujetar la batería
 ### 9. Fijar todos los elementos
 Es el momento de fijar bien todos los elementos a la carcasa (receptor de radio, radio de telemetría), utilizando cinta de Velcro y bridas, tal como muestran las imágenes de la figura 6.10.
-
- 	 	 
- 	 	 
+<img src="https://github.com/user-attachments/assets/28e92c9f-ef12-440b-bc09-2c51d551c75a" width="400" height="200">   	   	 	 
 **Figura 6.10:** Fijación de algunos elementos al armazón
 
 
