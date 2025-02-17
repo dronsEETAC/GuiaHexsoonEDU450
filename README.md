@@ -353,12 +353,12 @@ Por otro lado, recuerda que para alimentar el autopiloto debes utilizar el cable
 Para este paso se recomienda ver el vídeo en el minuto 6:25. Es importante tener en cuenta que los motores están numerados según se muestra en la figura 6.5 (izquierda). Cada motor debe conectarse a la salida MAIN OUT correspondiente del autopiloto, como se muestra en la figura 6.5 (derecha).
 
 Recuerda que los motores colocados en los soportes naranjas (los motores delanteros) tienen unas extensiones que pueden facilitar esta conexión. Es perfectamente posible que la conexión se pueda hacer sin la ayuda de estas extensiones, lo cual es preferible para que el "lío" de cables sea el menor posible.     
-<img src="https://github.com/user-attachments/assets/9e2d335d-9077-4b1a-8ce6-c7ac2da91d9a" width="400" height="200">   	 
+<img src="https://github.com/user-attachments/assets/9e2d335d-9077-4b1a-8ce6-c7ac2da91d9a" width="400" height="200">    	 
 **Figura 6.5:** Connexión de los motores al autopiloto    
 ### 5. Instalar el receptor GPS
 El receptor GPS debe colocarse en la parte delantera de la placa superior. Las imágenes de la figura 6.6 pueden ayudar en este paso.
 Observa que el cable negro debe pasar por el interior del soporte. Este cable tiene dos conectores. Aunque solo es necesario conectar el con cables rojos/negros a CAN1 (como se muestra en la imagen derecha), se recomienda conectar también el otro conector (blanco/verde) a CAN2 (cosa que no se muestra en la imagen derecha).    
-<img src="https://github.com/user-attachments/assets/32628979-53f6-44ea-9ec4-4ecbdb4d6839" width="400" height="300">    	
+<img src="https://github.com/user-attachments/assets/32628979-53f6-44ea-9ec4-4ecbdb4d6839" width="400" height="300">    	 
 **Figura 6.6:** Instalación del receptor GPS    
 ### 6. Instalar la radio de telemetría
 La radio de telemetría permitirá comunicar el autopiloto con Mission Planner, para permitir, por ejemplo, enviar órdenes al dron o recibir datos de telemetría durante el vuelo. Lógicamente, esta información no se puede enviar durante el vuelo a través de la conexión USB que se utilizó en la actividad #6 para conectar por cable el autopiloto y Mission Planner.
@@ -370,7 +370,7 @@ Es conveniente ir seleccionando el lugar de las planchas donde se fijará más a
 **Figura 6.7:** Conexión de la radio de telemetría    
 #### 7. Instalar el buzzer
 Como se muestra en la figura 6.8, el zumbador se conecta a la entrada USB del autopiloto.       
-<img src="https://github.com/user-attachments/assets/fb424a8f-8672-4c8b-a037-8a18ae224ab2" width="400" height="500">   	 
+<img src="https://github.com/user-attachments/assets/fb424a8f-8672-4c8b-a037-8a18ae224ab2" width="400" height="500">    	 
 **Figura 6.8:** Connexión del buzzer      
 ### 8. Incorporar las tiras de Velcro y las cintas que se usarán para fijar la batería
 La figura 6.9 ilustra esta operación. Observen que como medida de sujeción adicional se coloca cinta de Velcro.
