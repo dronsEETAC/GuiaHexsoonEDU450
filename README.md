@@ -296,7 +296,7 @@ Los pasos se indican en la tabla, que será la guía de esta actividad. Para cad
 | Paso | Descripción | Instrucciones |
 |-----------|-----------|-----------|
 | 1	| Conectar el receptor de radio, el receptor GPS y el buzzer al autopiloto | https://youtu.be/2Jm9zshM1Sc |
-| 2	| Instalar Mission Planner al portatil |  |
+| 2	| Instalar Mission Planner al portatil | https://ardupilot.org/planner/docs/mission-planner-installation.html |
 | 3	| Instalar en el autopiloto el firmware requerido e indicar el tipo de Frame e Initial Parameter Setup | https://youtu.be/MUiUbNqETsk |
 | 4	| Configurar algunos parámetros. Después de hacerlo, debemos reiniciar el autopiloto: DATA -> Actions -> PREFLIGHT REBOOT_SHOOT Si todo es correcto, se encenderán los LEDs y se escuchará el silbido del buzzer | https://youtu.be/8aF4e0XCMpo (Nota 1) |
 | 5	| Calibrar el acelerómetro y Brújula (Compass) | https://youtu.be/slux0oX2Qig |
