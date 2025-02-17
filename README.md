@@ -298,28 +298,25 @@ Los pasos se indican en la tabla, que será la guía de esta actividad. Para cad
 | 1	| Conectar el receptor de radio, el receptor GPS y el buzzer al autopiloto | https://youtu.be/2Jm9zshM1Sc |
 | 2	| Instalar Mission Planner al portatil |  |
 | 3	| Instalar en el autopiloto el firmware requerido e indicar el tipo de Frame e Initial Parameter Setup | https://youtu.be/MUiUbNqETsk |
-| 4	| Configurar algunos parámetros. Después de hacerlo, debemos reiniciar el autopiloto:
-DATA -> Actions -> PREFLIGHT REBOOT_SHOOT
-Si todo es correcto, se encenderán los LEDs y se escuchará el silbido del buzzer.
- | https://youtu.be/8aF4e0XCMpo (Nota 1) |
+| 4	| Configurar algunos parámetros. Después de hacerlo, debemos reiniciar el autopiloto: DATA -> Actions -> PREFLIGHT REBOOT_SHOOT Si todo es correcto, se encenderán los LEDs y se escuchará el silbido del buzzer | https://youtu.be/8aF4e0XCMpo (Nota 1) |
 | 5	| Calibrar el acelerómetro y Brújula (Compass) | https://youtu.be/slux0oX2Qig |
 | 6	| Calibrar la radio | https://youtu.be/0Ii1I8D2gro (Nota 2) |
 | 7	| Configurar los modos de vuelo (seleccionar: AltHold, Loiter y RTL) y RTL altitude | https://youtu.be/PNEuuCZnhX0 (Nota 3) |
 
-**Nota 1** 
+**Nota 1**    
 Como se indica en el vídeo, estos son los parámetros que se deben configurar:
 
-CAN_P1_DRIVER -> 1 
-GPS_TYPE -> 9 
-NTF_LED_TYPES -> 231 
-BRD_SAFETY_DEFLT -> 0
+CAN_P1_DRIVER -> 1    
+GPS_TYPE -> 9    
+NTF_LED_TYPES -> 231    
+BRD_SAFETY_DEFLT -> 0   
 
 Haz clic en "Write Params" al finalizar. Las funciones del bus CAN estarán disponibles después de reiniciar el autopiloto.
 
-**Nota 2**
+**Nota 2**    
 Al calibrar la radio verás los valores máximo y mínimo de la señal PWM generada por cada uno de los actuadores. De momento, sólo son importantes los valores generados por el acelerador. Tome nota de estos valores (estos valores deben ser similares a 982 y 2006)
 
-**Nota 3**
+**Nota 3**    
 El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.3. Una buena elección es 7 metros.
  <img src="https://github.com/user-attachments/assets/483e606c-f060-48eb-bff5-4e259b09b968" width="400" height="200">    
 **Figura 5.3:** Configuración de la altura para RTL
