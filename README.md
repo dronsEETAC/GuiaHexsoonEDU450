@@ -264,7 +264,7 @@ La configuración predeterminada del piloto automático hace que el pitch del dr
 ## Actividad 5: El Autopiloto
 ### 1. Presentación
 En esta actividad se realizarán las primeras configuraciones básicas del piloto automático. Se trata del Pixhawk Orange Cube. El kit correspondiente contiene los elementos que se muestran en la figura 5.1.    
- <img src="https://github.com/user-attachments/assets/b965afaa-6dfc-4886-96c2-6a12a1beb776" width="400" height="300">      
+ <img src="https://github.com/user-attachments/assets/b965afaa-6dfc-4886-96c2-6a12a1beb776" width="400" height="400">      
 **Figura 5.1:** Componentes del kit Orange Cube     
 
 
