@@ -275,13 +275,13 @@ El piloto automático es un dispositivo muy sofisticado. Es capaz de generar la 
 
 Como es lógico, las órdenes que daremos ahora desde el transmisor de radio ya no serán operaciones simples como las que vimos en la actividad (acelerar un motor específico moviendo una de las palancas). Sería imposible controlar el vuelo del dron a partir de órdenes de esta naturaleza. Ahora, cuando movamos una palanca o un interruptor, estaremos ordenando al piloto automático que realice una operación más compleja (despegue, gire a la derecha, regrese a casa, etc.).    
 
-Recuerda que en la actividad anterior se preparó un modelo para el transmisor de radio (newModel) en el cual, por ejemplo, se asoció el canal 1 al movimiento horizontal de la palanca derecha. La señal recibida por el piloto automático a través de este canal se usará para controlar el movimiento de Roll (desplazamiento del dron derecha/izquierda). Lo mismo ocurre con otros canales, como se indica en la siguiente tabla.    
-
-Canal	Actuador	Movimiento
-1	Ail	Roll (izquierda/derecha)
-2	Ele	Pitch (delante/atrás)
-3	Thr	Throttle (elevación/descenso)
-4	Rud	Yaw (giro sobre sí mismo)
+Recuerda que en la actividad anterior se preparó un modelo para el transmisor de radio (newModel) en el cual, por ejemplo, se asoció el canal 1 al movimiento horizontal de la palanca derecha. La señal recibida por el piloto automático a través de este canal se usará para controlar el movimiento de Roll (desplazamiento del dron derecha/izquierda). Lo mismo ocurre con otros canales, como se indica en la siguiente tabla.   
+| Canal | Actuador | Movimiento |
+|-----------|-----------|-----------|
+| 1	| Ail	Roll | izquierda/derecha |
+| 2	| Ele	Pitch | delante/atrás |
+| 3	| Thr	Throttle |elevación/descenso |
+| 4	| Rud	Yaw | giro sobre sí mismo |
 
 El piloto automático también es capaz de generar las señales de control de los motores necesarias para mantener la estabilidad del dron, según el modo de vuelo elegido. Por ejemplo, si queremos en modo AltHold, el piloto automático mantendrá la altitud constante mientras el piloto no la modifique desde el transmisor. Para hacerlo, el piloto automático utilizará la información que obtiene de sensores internos (barómetro, acelerómetro, giroscopio). La precisión de esta operación podría mejorar si incorporamos al dron un sensor externo adicional, como un altímetro láser, que proporcionaría más información al piloto automático. En el caso de que queramos en modo Loiter, el piloto automático utilizará la señal GPS que recibe del exterior para mantener la estabilidad con mayor precisión que solo con los sensores internos, aunque solo podremos volar en modo Loiter si estamos en un lugar donde llegue la señal GPS. Como es lógico, en algún momento hay que decirle al piloto automático qué modo de vuelo debe usar (hay muchos otros, además de AltHold y Loiter). Para hacerlo, utilizaremos el interruptor SB del transmisor, que tiene tres posiciones, lo que nos permitirá seleccionar uno de entre tres modos de vuelo. Por ahora, los que se configurarán son estos tres:   
 
