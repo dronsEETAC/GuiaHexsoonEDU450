@@ -324,15 +324,16 @@ El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición
 ## Actividad #6: Montaje de la carcasa (parte 2)   
 ### 1. Presentación
 En esta actividad finalizaremos el montaje de la carcasa incorporando, entre otros elementos, el receptor de radio, el autopiloto (al cual conectaremos los motores), el receptor GPS y la radio de telemetría. La figura 6.1 muestra el aspecto del dron una vez finalizada esta actividad (aunque las hélices solo se colocarán en el momento de realizar las pruebas de vuelo).   
- 
+<img src="https://github.com/user-attachments/assets/2994a2ed-6a16-42f1-9ad5-70507fd1965c" width="400" height="400">    
 **Figura 6.1:** El dron al final de esta actividad    
 
 Para facilitar el proceso, a continuación, se detallan una serie de pasos a seguir (con imágenes que pueden ser útiles). En el siguiente vídeo se proporciona información que puede ser muy útil para algunos pasos.
- 
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmwJNhkAG2bE)](https://www.youtube.com/watch?v=mwJNhkAG2bE)  
+
 https://www.youtube.com/watch?v=mwJNhkAG2bE&list=PLYsWjANuAm4qJ8Lko-3xiYNGb2Hh22rDw&index=3
 
 Varios de los dispositivos se conectarán al autopiloto. La figura 6.2 muestra las diferentes entradas para conexiones de Orange Cube, a las que nos referiremos al describir cada uno de los pasos.
- 
+ <img src="https://github.com/user-attachments/assets/89aff9e1-8026-4258-a6b1-6f4fa047b457" width="200" height="400">    
 **Figura 6.2:** Entradas para conexiones al Orange Cube
 
 ### 2. Fijar el autopiloto a la plancha superior
