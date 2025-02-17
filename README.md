@@ -390,16 +390,16 @@ En esta actividad completarás la configuración de la plataforma. Entre otras c
 No olvides recopilar la información necesaria (fotos y/o vídeos) para incorporarla al sitio de tu proyecto.
 ### 2. Pasos
 Los pasos a realizar se enumeran en la tabla. Para cada paso se indica el minuto: segundo del video donde se puede ver cómo hacer el paso. De nuevo, es importante leer las notas aclaratorias antes del paso correspondiente.
+| Paso | Descripción | Vídeo |
+|-----------|-----------|-----------|
+| 1  | Configuración de la radio dde telemetría|https://youtu.be/6xqEbOzUQSo |
+| 2  | Calibrado de los variadores ESC | https://youtu.be/wO8QJQpC3IM |
+| 3  | Configuración del servo, FailSave y Arm/Disarm| https://youtu.be/D1ne2W3uEEE  (Nota 1)|
+| 4  | Configuración del monitor de bateria| https://youtu.be/DGpoN0KlAYY |
+| 5  | Test de motores| https://youtu.be/w6N368HIncc |
+| 6  | Carga de parámetros seleccionados | https://youtu.be/9pilQ3uT8mA |
+| 7  | Comprobaciones finales |https://youtu.be/Af_ygwTi_s0 (Nota 3) |
 
-1 	Configure the telemetry radio 	https://youtu.be/6xqEbOzUQSo 
-2 	ESC calibration 	https://youtu.be/wO8QJQpC3IM 
-3 	Configure servo, FailSave and Arm/Disarm 	https://youtu.be/D1ne2W3uEEE 
-Note 1 
-5 	Configure battery monitor 	https://youtu.be/DGpoN0KlAYY 
-6 	Test the motors 	https://youtu.be/w6N368HIncc 
-7 	Load default parameters for our frame 	https://youtu.be/9pilQ3uT8mA 
-8 	Final configuration tests 	https://youtu.be/Af_ygwTi_s0 
-Note 3 
 La mayoría de los pasos requieren que el autopiloto esté conectado con Mission Planner. Recuerden que tenemos dos maneras de realizar esta conexión: mediante el cable USB o mediante la radio de telemetría. En este caso, ya que los pasos se darán con el dron en tierra, cualquiera de las dos conexiones es posible. Sin embargo, ya que en actividades anteriores ya se han hecho operaciones con la conexión vía USB, se propone que los siguientes pasos se hagan con la conexión vía radio de telemetría, para verificar que funciona correctamente. No obstante, se observará que la comunicación a través de esta vía es más lenta.
 Nota 1
 El parámetro FailSave especifica qué debe hacer el piloto automático si el sistema falla. Por el momento, sólo nos interesa especificar qué hacer si el dron pierde contacto con la radio (también puedes especificar qué hacer en caso de batería baja). Como puedes ver en el video debes especificar dos cosas. El FS PWM es el valor de la señal del acelerador por debajo del cual el piloto automático considerará que se ha perdido la radio. Recuerda que tomaste una nota sobre la señal PWM mínima que generará el modo RTL del acelerador indica que el dron debe volver al origen en caso de fallo (nota 2 en actividad #5). Obviamente el FS PWM debe ser un valor inferior al mínimo (en el video se asigna un valor de 975, que es inferior a 982).
