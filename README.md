@@ -339,23 +339,21 @@ Varios de los dispositivos se conectarán al autopiloto. La figura 6.2 muestra l
 Para este paso, es recomendable observar el vídeo al minuto 4:30. Las imágenes de la figura 6.3 pueden ser de ayuda.    
 
 ATENCIÓN: Es crucial que el autopiloto quede perfectamente centrado en la plancha superior. El centro geométrico del cubo naranja debería coincidir con el centro geométrico de la plancha.    
- 	 
+ <img src="https://github.com/user-attachments/assets/f6aaa27f-d478-448d-8b48-eb5b2330f7ae" width="400" height="200">    
 **Figura 6.3:** Fijar el autopiloto a la plancha superior
 
 ### 3. Conectar el receptor de radio al autopiloto y alimentar el autopiloto    
 Recuerda que la conexión entre el receptor y el autopiloto se realiza con un cable que conecta SBUS OUT del receptor con RCIN del autopiloto. Esta conexión proporciona alimentación al receptor de radio (que en la actividad #5 se alimentaba con el adaptador UBEC). Presta atención a la polaridad de los tres pines implicados en la conexión. Aunque aún no es el momento de fijar el receptor de radio a las planchas de la carcasa, puede ser conveniente ir eligiendo el lugar donde se colocará para que el cableado sea lo más sencillo posible.    
 
 Por otro lado, recuerda que para alimentar el autopiloto debes utilizar el cable POWER2 que se conectó a la placa de distribución de energía. La figura 6.4 muestra estas conexiones.    
-
-
- 
+ <img src="https://github.com/user-attachments/assets/8b8475d0-5987-471b-bca5-7663cf1a7754" width="400" height="500">   
 **Figura 6.4:** Conexiones para alimentar al autopiloto y para conectarlo al receptor de radio 
 
 ### 4. Conectar los motores al autopiloto
 Para este paso se recomienda ver el vídeo en el minuto 6:25. Es importante tener en cuenta que los motores están numerados según se muestra en la figura 6.5 (izquierda). Cada motor debe conectarse a la salida MAIN OUT correspondiente del autopiloto, como se muestra en la figura 6.5 (derecha).
 
-Recuerda que los motores colocados en los soportes naranjas (los motores delanteros) tienen unas extensiones que pueden facilitar esta conexión. Es perfectamente posible que la conexión se pueda hacer sin la ayuda de estas extensiones, lo cual es preferible para que el "lío" de cables sea el menor posible.
- 	 
+Recuerda que los motores colocados en los soportes naranjas (los motores delanteros) tienen unas extensiones que pueden facilitar esta conexión. Es perfectamente posible que la conexión se pueda hacer sin la ayuda de estas extensiones, lo cual es preferible para que el "lío" de cables sea el menor posible.     
+<img src="https://github.com/user-attachments/assets/9e2d335d-9077-4b1a-8ce6-c7ac2da91d9a" width="400" height="250">   	 
 **Figura 6.5:** Connexión de los motores al autopiloto  
 
 ### 5. Instalar el receptor GPS
