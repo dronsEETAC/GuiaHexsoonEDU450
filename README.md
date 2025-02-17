@@ -325,7 +325,7 @@ Al calibrar la radio verás los valores máximo y mínimo de la señal PWM gener
 
 Nota 3
 El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.3. Una buena elección es 7 metros.
- <img src="https://github.com/user-attachments/assets/f311055c-6374-4d54-ad1b-dc86bd5b8072" width="400" height="250">    
+ <img src="https://github.com/user-attachments/assets/483e606c-f060-48eb-bff5-4e259b09b968" width="400" height="250">    
 **Figura 5.3:** Configuración de la altura para RTL
 
 
