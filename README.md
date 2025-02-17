@@ -353,7 +353,7 @@ Por otro lado, recuerda que para alimentar el autopiloto debes utilizar el cable
 Para este paso se recomienda ver el vídeo en el minuto 6:25. Es importante tener en cuenta que los motores están numerados según se muestra en la figura 6.5 (izquierda). Cada motor debe conectarse a la salida MAIN OUT correspondiente del autopiloto, como se muestra en la figura 6.5 (derecha).
 
 Recuerda que los motores colocados en los soportes naranjas (los motores delanteros) tienen unas extensiones que pueden facilitar esta conexión. Es perfectamente posible que la conexión se pueda hacer sin la ayuda de estas extensiones, lo cual es preferible para que el "lío" de cables sea el menor posible.     
-<img src="https://github.com/user-attachments/assets/9e2d335d-9077-4b1a-8ce6-c7ac2da91d9a" width="400" height="250">   	 
+<img src="https://github.com/user-attachments/assets/9e2d335d-9077-4b1a-8ce6-c7ac2da91d9a" width="400" height="200">   	 
 **Figura 6.5:** Connexión de los motores al autopiloto    
 ### 5. Instalar el receptor GPS
 El receptor GPS debe colocarse en la parte delantera de la placa superior. Las imágenes de la figura 6.6 pueden ayudar en este paso.
