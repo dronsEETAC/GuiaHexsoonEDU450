@@ -383,5 +383,5 @@ Es el momento de fijar bien todos los elementos a la carcasa (receptor de radio,
 ### 8. Incorporar las tiras de Velcro y las cintas que se usarán para fijar la batería
 La figura 6.9 ilustra esta operación. Observen que como medida de sujeción adicional se coloca cinta de Velcro.   
 <img src="https://github.com/user-attachments/assets/e5990d57-50b8-4ced-a784-5ff66f3aa3e4" width="400" height="200">   	   
-**Figura 6.9:** Colocación de las cintras para sujetar la batería   
+**Figura 6.10:** Fijación de algunos elementos al armazón   
 
