@@ -264,15 +264,13 @@ La configuración predeterminada del piloto automático hace que el pitch del dr
 ## Actividad 5: El Autopiloto
 ### 1. Presentación
 En esta actividad se realizarán las primeras configuraciones básicas del piloto automático. Se trata del Pixhawk Orange Cube. El kit correspondiente contiene los elementos que se muestran en la figura 5.1.    
-
- 
+ <img src="https://github.com/user-attachments/assets/b965afaa-6dfc-4886-96c2-6a12a1beb776" width="400" height="400">      
 **Figura 5.1:** Componentes del kit Orange Cube     
 
 
 ### 2. Conceptos básicos
 El piloto automático es un dispositivo muy sofisticado. Es capaz de generar la combinación adecuada de señales PWM necesarias para realizar las operaciones básicas de vuelo: despegar, aterrizar, moverse hacia adelante, a la izquierda o a la derecha, rotar, etc. Para hacerlo, debe estar conectado al receptor de radio, para que este pueda enviar las órdenes que llegan del transmisor de radio. Esta conexión se muestra en la figura 5.2. El receptor de radio tiene una salida que se llama SBUS OUT, por la cual envía de forma multiplexada las señales que recibe por los diferentes canales de radio (además de generar por separado las señales PWM correspondientes a cada canal, tal como hemos visto en la actividad anterior). La salida SBUS OUT debe conectarse a la entrada RCIN del piloto automático con el cable que se incluye en el kit de complementos.     
-
- 
+ <img src="https://github.com/user-attachments/assets/02c86fd4-bf06-42e3-8d0b-f8ef3949bdb9" width="400" height="400">    
 **Figura 5.2:** Connexión del receptor de radio con el autopiloto    
 
 Como es lógico, las órdenes que daremos ahora desde el transmisor de radio ya no serán operaciones simples como las que vimos en la actividad (acelerar un motor específico moviendo una de las palancas). Sería imposible controlar el vuelo del dron a partir de órdenes de esta naturaleza. Ahora, cuando movamos una palanca o un interruptor, estaremos ordenando al piloto automático que realice una operación más compleja (despegue, gire a la derecha, regrese a casa, etc.).    
@@ -327,9 +325,8 @@ Al calibrar la radio verás los valores máximo y mínimo de la señal PWM gener
 
 Nota 3
 El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.3. Una buena elección es 7 metros.
-
- 
-**Figura 5.4:** Configuración de la altura para RTL
+ <img src="https://github.com/user-attachments/assets/f311055c-6374-4d54-ad1b-dc86bd5b8072" width="400" height="250">    
+**Figura 5.3:** Configuración de la altura para RTL
 
 
 
