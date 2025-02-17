@@ -384,3 +384,47 @@ Es el momento de fijar bien todos los elementos a la carcasa (receptor de radio,
 <img src="https://github.com/user-attachments/assets/28e92c9f-ef12-440b-bc09-2c51d551c75a" width="400" height="200">   	   
 **Figura 6.10:** Fijación de algunos elementos al armazón   
 
+## Actividad #7: Más calibraciones
+### 1. Presentación
+En esta actividad completarás la configuración de la plataforma. Entre otras cosas, calibrarás el ESC y probarás los motores, configurarás los modos de vuelo y cargarás los parámetros por defecto de tu frame. Al final, la plataforma estará lista para la primera prueba de vuelo.
+No olvides recopilar la información necesaria (fotos y/o vídeos) para incorporarla al sitio de tu proyecto.
+### 2. Pasos
+Los pasos a realizar se enumeran en la tabla. Para cada paso se indica el minuto: segundo del video donde se puede ver cómo hacer el paso. De nuevo, es importante leer las notas aclaratorias antes del paso correspondiente.
+
+1 	Configure the telemetry radio 	https://youtu.be/6xqEbOzUQSo 
+2 	ESC calibration 	https://youtu.be/wO8QJQpC3IM 
+3 	Configure servo, FailSave and Arm/Disarm 	https://youtu.be/D1ne2W3uEEE 
+Note 1 
+5 	Configure battery monitor 	https://youtu.be/DGpoN0KlAYY 
+6 	Test the motors 	https://youtu.be/w6N368HIncc 
+7 	Load default parameters for our frame 	https://youtu.be/9pilQ3uT8mA 
+8 	Final configuration tests 	https://youtu.be/Af_ygwTi_s0 
+Note 3 
+La mayoría de los pasos requieren que el autopiloto esté conectado con Mission Planner. Recuerden que tenemos dos maneras de realizar esta conexión: mediante el cable USB o mediante la radio de telemetría. En este caso, ya que los pasos se darán con el dron en tierra, cualquiera de las dos conexiones es posible. Sin embargo, ya que en actividades anteriores ya se han hecho operaciones con la conexión vía USB, se propone que los siguientes pasos se hagan con la conexión vía radio de telemetría, para verificar que funciona correctamente. No obstante, se observará que la comunicación a través de esta vía es más lenta.
+Nota 1
+El parámetro FailSave especifica qué debe hacer el piloto automático si el sistema falla. Por el momento, sólo nos interesa especificar qué hacer si el dron pierde contacto con la radio (también puedes especificar qué hacer en caso de batería baja). Como puedes ver en el video debes especificar dos cosas. El FS PWM es el valor de la señal del acelerador por debajo del cual el piloto automático considerará que se ha perdido la radio. Recuerda que tomaste una nota sobre la señal PWM mínima que generará el modo RTL del acelerador indica que el dron debe volver al origen en caso de fallo (nota 2 en actividad #5). Obviamente el FS PWM debe ser un valor inferior al mínimo (en el video se asigna un valor de 975, que es inferior a 982).
+La segunda decisión es qué hacer en caso de fallo de radio. Una buena opción es volver a casa (RTL).
+Nota 2
+Armar el dron permite que los motores empiecen a girar. Tendrás que armar el dron antes de empezar a volarlo. Desarmarlo hará que los motores dejen de girar.
+Nota 3
+Ten en cuenta que, si intentas armar el dron en modo Loiter, el sistema te dirá que el dron no se puede armar debido a una mala señal GPS, a menos que intentes armarlo en el exterior, donde se recibe una buena señal GPS. Por lo tanto, si se encuentra en el aula, intente armarlo en modo Alt Hold.
+Ten en cuenta que si intentas armarlo con la radio apagada el sistema dará un error. ¿Podría explicar por qué?
+Incluso con la radio encendida, al intentar armar el dron probablemente tendrás el error que se muestra en el video: PreArm: Check FS_THR_VALUE. En principio, incluso con el acelerador totalmente bajado, la señal PWM que se genera es superior a la FS PWM. Por lo que el sistema debería poder armarse.
+Sin embargo, hay un valor umbral de 10, para asegurar que el parámetro FS PWM no está demasiado cerca del mínimo PWM del acelerador. Recuerde que el mínimo PWM del acelerador es 982 y el FS PWM es 975. La diferencia es menor que el valor umbral. La diferencia es menor que el valor umbral. Esta es la razón de la notificación de PreArm Check. Simplemente cambia el valor de FS PWM a 972 (o menos) y la notificación desaparecerá.
+Nota 4
+Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s).
+ 
+**Figura 7.1:** Modificación de la velocidad de ascenso y descenso en pilotaje manual
+
+Nivel de la batería 
+
+Debe comprobar con frecuencia el nivel de carga de la batería, como se muestra en la imagen 7.2.
+ 
+**Figura 7.2:** Comprobación del nivel de bateria
+Usted debe verificar que la carga en cada célula es de al menos 3,7. Si no es así, es hora de cargar.
+
+
+
+
+
+
