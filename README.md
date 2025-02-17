@@ -412,15 +412,15 @@ Ten en cuenta que si intentas armarlo con la radio apagada el sistema dará un e
 Incluso con la radio encendida, al intentar armar el dron probablemente tendrás el error que se muestra en el video: PreArm: Check FS_THR_VALUE. En principio, incluso con el acelerador totalmente bajado, la señal PWM que se genera es superior a la FS PWM. Por lo que el sistema debería poder armarse.
 Sin embargo, hay un valor umbral de 10, para asegurar que el parámetro FS PWM no está demasiado cerca del mínimo PWM del acelerador. Recuerde que el mínimo PWM del acelerador es 982 y el FS PWM es 975. La diferencia es menor que el valor umbral. La diferencia es menor que el valor umbral. Esta es la razón de la notificación de PreArm Check. Simplemente cambia el valor de FS PWM a 972 (o menos) y la notificación desaparecerá.
 Nota 4
-Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s).
- 
-**Figura 7.1:** Modificación de la velocidad de ascenso y descenso en pilotaje manual
-
+Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s).    
+ <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	    
+**Figura 7.1:** Modificación de la velocidad de ascenso y descenso en pilotaje manual    
+   
 Nivel de la batería 
 
-Debe comprobar con frecuencia el nivel de carga de la batería, como se muestra en la imagen 7.2.
- 
-**Figura 7.2:** Comprobación del nivel de bateria
+Debe comprobar con frecuencia el nivel de carga de la batería, como se muestra en la imagen 7.2.    
+ <img src="https://github.com/user-attachments/assets/bbfb72d3-4330-4739-9030-075e38d7fca6" width="400" height="300">   	   
+**Figura 7.2:** Comprobación del nivel de bateria    
 Usted debe verificar que la carga en cada célula es de al menos 3,7. Si no es así, es hora de cargar.
 
 
