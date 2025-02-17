@@ -260,7 +260,77 @@ Esta es la secuencia de pasos que se pueden ver en el vídeo:
 La configuración predeterminada del piloto automático hace que el pitch del dron esté invertido. Es decir, cuando movemos la palanca de la derecha hacia adelante, el dron se mueve hacia atrás. Este comportamiento es poco natural, por lo que es necesario invertir el canal del pitch en la emisora. Esto se puede hacer directamente en la radio, como muestra la figura 4.7. (Este proceso lo has podido ver en uno de los videos anteriores).    
 <img src="https://github.com/user-attachments/assets/3a5fb2e4-59d4-4ef9-801f-3b3e06ad2740" width="400" height="250">    
 **Figura 4.7:** Inversión de la señal de pitch
-## Siguiente seccion     
+   
+## Actividad 5: El Autopiloto
+### 1. Presentación
+En esta actividad se realizarán las primeras configuraciones básicas del piloto automático. Se trata del Pixhawk Orange Cube. El kit correspondiente contiene los elementos que se muestran en la figura 5.1.    
+
+ 
+**Figura 5.1:** Componentes del kit Orange Cube     
+
+
+### 2. Conceptos básicos
+El piloto automático es un dispositivo muy sofisticado. Es capaz de generar la combinación adecuada de señales PWM necesarias para realizar las operaciones básicas de vuelo: despegar, aterrizar, moverse hacia adelante, a la izquierda o a la derecha, rotar, etc. Para hacerlo, debe estar conectado al receptor de radio, para que este pueda enviar las órdenes que llegan del transmisor de radio. Esta conexión se muestra en la figura 5.2. El receptor de radio tiene una salida que se llama SBUS OUT, por la cual envía de forma multiplexada las señales que recibe por los diferentes canales de radio (además de generar por separado las señales PWM correspondientes a cada canal, tal como hemos visto en la actividad anterior). La salida SBUS OUT debe conectarse a la entrada RCIN del piloto automático con el cable que se incluye en el kit de complementos.     
+
+ 
+**Figura 5.2:** Connexión del receptor de radio con el autopiloto    
+
+Como es lógico, las órdenes que daremos ahora desde el transmisor de radio ya no serán operaciones simples como las que vimos en la actividad (acelerar un motor específico moviendo una de las palancas). Sería imposible controlar el vuelo del dron a partir de órdenes de esta naturaleza. Ahora, cuando movamos una palanca o un interruptor, estaremos ordenando al piloto automático que realice una operación más compleja (despegue, gire a la derecha, regrese a casa, etc.).    
+
+Recuerda que en la actividad anterior se preparó un modelo para el transmisor de radio (newModel) en el cual, por ejemplo, se asoció el canal 1 al movimiento horizontal de la palanca derecha. La señal recibida por el piloto automático a través de este canal se usará para controlar el movimiento de Roll (desplazamiento del dron derecha/izquierda). Lo mismo ocurre con otros canales, como se indica en la siguiente tabla.    
+
+Canal	Actuador	Movimiento
+1	Ail	Roll (izquierda/derecha)
+2	Ele	Pitch (delante/atrás)
+3	Thr	Throttle (elevación/descenso)
+4	Rud	Yaw (giro sobre sí mismo)
+
+El piloto automático también es capaz de generar las señales de control de los motores necesarias para mantener la estabilidad del dron, según el modo de vuelo elegido. Por ejemplo, si queremos en modo AltHold, el piloto automático mantendrá la altitud constante mientras el piloto no la modifique desde el transmisor. Para hacerlo, el piloto automático utilizará la información que obtiene de sensores internos (barómetro, acelerómetro, giroscopio). La precisión de esta operación podría mejorar si incorporamos al dron un sensor externo adicional, como un altímetro láser, que proporcionaría más información al piloto automático. En el caso de que queramos en modo Loiter, el piloto automático utilizará la señal GPS que recibe del exterior para mantener la estabilidad con mayor precisión que solo con los sensores internos, aunque solo podremos volar en modo Loiter si estamos en un lugar donde llegue la señal GPS. Como es lógico, en algún momento hay que decirle al piloto automático qué modo de vuelo debe usar (hay muchos otros, además de AltHold y Loiter). Para hacerlo, utilizaremos el interruptor SB del transmisor, que tiene tres posiciones, lo que nos permitirá seleccionar uno de entre tres modos de vuelo. Por ahora, los que se configurarán son estos tres:   
+
+* AltHold: Estabiliza la altitud (y también pitch y roll) usando los sensores internos.
+* Loiter: Estabiliza la altitud (y también pitch y roll) pero usando la señal GPS. Requiere cobertura GPS.
+* RTL (Return To Launch): El dron regresará automáticamente al punto desde el que despegó. Este modo también requiere cobertura GPS para que el dron tenga geolocalizado el punto de despegue.    
+
+El piloto automático también es capaz de ejecutar automáticamente un plan de vuelo, es decir, recorrer una secuencia de puntos geolocalizados (que normalmente llamamos waypoints). En este caso, es necesario disponer de una estación terrestre donde se configurará el plan de vuelo y se enviará al piloto automático. La estación terrestre también puede recoger los datos de telemetría que enviará el piloto automático durante el vuelo para analizarlos posteriormente. El software de estación terrestre más utilizado (y gratuito) es Mission Planner, que es el que utilizaremos en los siguientes pasos.    
+### 3. Pasos de la actividad
+Los pasos se indican en la tabla, que será la guía de esta actividad. Para cada paso tenemos una indicación del minuto/segundo del vídeo indicado en el apartado 1, donde se describe el paso que se debe hacer. Algunos pasos tienen una nota aclaratoria que hay que leer antes de hacer el paso correspondiente.    
+
+1	Conectar el receptor de radio, el receptor GPS y el buzzer al autopiloto	https://youtu.be/2Jm9zshM1Sc
+
+2	Instalar Mission Planner al portatil	Realizado en Partes del proyecto anteriores
+3	Instalar en el autopiloto el firmware requerido e indicar el tipo de Frame e Initial Parameter Setup	https://youtu.be/MUiUbNqETsk
+ 
+
+4	Configurar algunos parámetros. Después de hacerlo, debemos reiniciar el autopiloto:
+DATA -> Actions -> PREFLIGHT REBOOT_SHOOT
+Si todo es correcto, se encenderán los LEDs y se escuchará el silbido del buzzer.	https://youtu.be/8aF4e0XCMpo
+Note 1 
+5	Calibrar el acelerómetro y Brújula (Compass)	https://youtu.be/slux0oX2Qig
+
+6	Calibrar la radio	https://youtu.be/0Ii1I8D2gro
+Note 2 
+7	Configurar los modos de vuelo (seleccionar: AltHold, Loiter y RTL) y RTL altitude	https://youtu.be/PNEuuCZnhX0
+Note 3 
+
+Nota 1 
+Como se indica en el vídeo, estos son los parámetros que se deben configurar:
+
+CAN_P1_DRIVER -> 1 
+GPS_TYPE -> 9 
+NTF_LED_TYPES -> 231 
+BRD_SAFETY_DEFLT -> 0
+
+Haz clic en "Write Params" al finalizar. Las funciones del bus CAN estarán disponibles después de reiniciar el autopiloto.
+
+Nota 2
+Al calibrar la radio verás los valores máximo y mínimo de la señal PWM generada por cada uno de los actuadores. De momento, sólo son importantes los valores generados por el acelerador. Tome nota de estos valores (estos valores deben ser similares a 982 y 2006)
+
+Nota 3
+El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.3. Una buena elección es 7 metros.
+
+ 
+**Figura 5.4:** Configuración de la altura para RTL
+
 
 
 
