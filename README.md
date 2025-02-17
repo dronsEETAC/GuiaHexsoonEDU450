@@ -331,8 +331,8 @@ Para facilitar el proceso, a continuación, se detallan una serie de pasos a seg
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmwJNhkAG2bE)](https://www.youtube.com/watch?v=mwJNhkAG2bE)  
 
 
-Varios de los dispositivos se conectarán al autopiloto. La figura 6.2 muestra las diferentes entradas para conexiones de Orange Cube, a las que nos referiremos al describir cada uno de los pasos.
- <img src="https://github.com/user-attachments/assets/515596bd-70dc-4655-b33f-ec981c0a684e" width="400" height="100">    
+Varios de los dispositivos se conectarán al autopiloto. La figura 6.2 muestra las diferentes entradas para conexiones de Orange Cube, a las que nos referiremos al describir cada uno de los pasos.     
+ <img src="https://github.com/user-attachments/assets/515596bd-70dc-4655-b33f-ec981c0a684e" width="400" height="200">    
 **Figura 6.2:** Entradas para conexiones al Orange Cube
 
 ### 2. Fijar el autopiloto a la plancha superior
