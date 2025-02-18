@@ -425,6 +425,34 @@ Debes comprobar con frecuencia el nivel de carga de la batería, como se muestra
 **Figura 7.2:** Comprobación del nivel de bateria    
 La carga en cada célula debe ser al menos 3,7. Si no es así, es hora de cargar la batería.
 
+## Actividad #8: Simulador, geofences y planificación de misiones    
+
+### 1. Presentación   
+
+En esta actividad aprenderás algunas cosas útiles antes de ir al DroneLab a volar. El simulador SITL (Software In The Loop) y Mission Planner te ayudarán a preparar y probar sus planes de vuelo con antelación para ahorrar tiempo y evitar errores fatales. Los geofences te permitirán volar de forma más segura. Además podrás planificar misiones que el dron ejecutará automáticamente.    
+
+### 2. El simulador SITL
+El simulador SITL puede ponerse en marcha desde el propio Mission Planner. Simula el comportamiento del piloto automático. Es ideal para entrenamiento y pruebas. Mira este vídeo para aprender los conceptos básicos sobre cómo utilizarlo.    
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1BPK29MOLlg)](https://www.youtube.com/watch?v=1BPK29MOLlg)
+
+### 3. Geofences
+En algunas ocasiones es buena idea poner límites en la zona que quieres volar para que el piloto automático impida que el drone cruce los límites de esta zona. Este mecanismo se llama geofence.    
+Como se muestra en la figura 8.1, Mission Planner permite establecer un geofence dibujando un polígono que representa los límites que el dron no puede cruzar.
+ <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	 
+**Figura 8.1:** Configuración de un geofence con Mission Planner
+
+### 4.Planificación de misiones 
+El piloto automático acepta planes de vuelo definidos como una secuencia de waypoints (una misión). Mission Planner te permite definir una misión, enviarla al piloto automático y ejecutarla.   
+Mira este vídeo para aprender los conceptos básicos sobre cómo configurar un geofence, cómo definir una misión y cómo ejecutarla (y mira qué sucede cuando el dron cruza los límites del geofence).
+[![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg-UfZ4gamq8)](https://www.youtube.com/watch?v=g-UfZ4gamq8)
+
+
+### 5.Elaboration
+Play a little bit with the tools showed in this activity. In particular, explore:
+•	How to define a geofence with the form of a circle
+•	How to change the margins used to determine fence breach
+•	The different actions in case of fence breach 
+•	The difference between fence inclusion and fence exclusion
 
 
 
