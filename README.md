@@ -32,7 +32,7 @@ El proceso de montaje, configuración y preparación para pruebas de vuelo del d
 
 ## Actividad #1: Lo más básico de los drones y sus componentes
 ### 1. Presentación
-En esta actividad se describen los aspectos más básicos de un dron y de los elementos que lo componen. El objetivo es ofrecer a los participantes en el taller un marco global, sencillo pero completo que les permita ubicar correctamente cada una de las actividades del taller.
+En esta actividad se describen los aspectos más básicos de un dron y de los elementos que lo componen. El objetivo es ofrecer un marco global, sencillo pero completo que les permita contextualizar correctamente cada una de las actividades.
 
 ### 2. Vídeo introductorio
 El vídeo siguiente describe estos aspectos básicos.
