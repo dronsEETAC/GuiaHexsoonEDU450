@@ -238,7 +238,7 @@ Por último, es necesario vincular la emisora (con el modelo creado) al receptor
 (protocolo ACCST)    
 
 ### 7. Prueba
-La prueba consiste en conectar cada uno de los motores y el servo a diferentes canales de la radio para verificar que todo funciona correctamente. El siguiente vídeo muestra cómo hacerlo.
+La prueba consiste en conectar cada uno de los motores y el servo a diferentes canales de la emisora para verificar que todo funciona correctamente. El siguiente vídeo muestra cómo hacerlo.
  
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1nugfbtLK9Q)](https://www.youtube.com/watch?v=1nugfbtLK9Q)
 
@@ -256,7 +256,7 @@ Esta es la secuencia de pasos que se pueden ver en el vídeo:
 10.	Se verifica que los motores giren en el sentido correcto. El vídeo muestra que este no es el caso en uno de los motores. Es el momento de cambiar las conexiones del variador ESC con el motor hasta conseguir que el sentido de giro del motor sea el correcto. Esta es una operación molesta porque hay que desatornillar el brazo y desconectar el LED para poder cambiar las conexiones del variador al motor.
 11.	Se sigue el mismo proceso con todos los motores.
 ### 8. Invertir el movimiento de Pitch
-La configuración predeterminada del piloto automático hace que el pitch del dron esté invertido. Es decir, cuando movemos la palanca de la derecha hacia adelante, el dron se mueve hacia atrás. Este comportamiento es poco natural, por lo que es necesario invertir el canal del pitch en la emisora. Esto se puede hacer directamente en la radio, como muestra la figura 4.7. (Este proceso lo has podido ver en uno de los videos anteriores).    
+La configuración predeterminada de los canales de la emisora hace que el pitch del dron esté invertido. Es decir, cuando movemos la palanca de la derecha hacia adelante, el dron se mueve hacia atrás. Este comportamiento puede resultar poco intuitivo, en cuyo caso puede invertirse el canal del pitch en la emisora. Esto se puede hacer directamente en emisora, como muestra la figura 4.7. (Este proceso lo has podido ver en uno de los videos anteriores).    
 <img src="https://github.com/user-attachments/assets/3a5fb2e4-59d4-4ef9-801f-3b3e06ad2740" width="400" height="250">    
 **Figura 4.7:** Inversión de la señal de pitch
    
