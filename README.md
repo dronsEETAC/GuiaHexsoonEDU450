@@ -116,7 +116,7 @@ Ahora necesitaremos tener a mano las hélices que se enroscarán en los motores.
 
 Una simple observación de cada hélice determina en qué dirección debe girar para que la hélice empuje el aire que la rodea hacia abajo y, como nos enseñó Newton, se genere la fuerza de sustentación que empuja la hélice hacia arriba. En concreto, las hélices con el punto blanco deben girar en sentido contrario al de las agujas del reloj (counterclockwise o CCW) y las que no tienen este punto en sentido de las agujas del reloj (clockwise o CW).
 
-Por otro lado, la figura 3.7 (izquierda) determina en qué sentido (CW o CCW) debe girar cada motor según su posición en la carcasa. Recordemos que los motores 1 y 3 de la figura, que son los delanteros, están fijados a los soportes de color naranja. A la vista de la figura 3.6 queda claro que los motores con punto blanco (que son los que giran en sentido CCW) deben ocupar las posiciones 1 y 2. Esta disposición se muestra también en la figura 3.7 (derecha).
+Por otro lado, la figura 3.7 (izquierda) determina en qué sentido (CW o CCW) debe girar cada motor según su posición en la carcasa. Recordemos que los motores 1 y 3 de la figura, que son los delanteros, están fijados a los soportes de color naranja. A la vista de la figura 3.7 queda claro que los motores con punto blanco (que son los que giran en sentido CCW) deben ocupar las posiciones 1 y 2. Esta disposición se muestra también en la figura 3.7 (derecha).
 
 Observar también en esta figura que se han añadido extensiones a los cables trenzados de los motores delanteros (naranjas). Estas extensiones facilitarán ciertas conexiones más adelante.
 
