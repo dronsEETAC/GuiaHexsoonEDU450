@@ -319,7 +319,7 @@ No olvidar hacer clic en "Write Params" al finalizar.
 Al calibrar la radio verás los valores máximo y mínimo de la señal PWM generada por cada uno de los actuadores. De momento, sólo son importantes los valores generados por el acelerador. Toma nota de estos valores (estos valores deben ser similares a 982 y 2006)
 
 **Nota 3**    
-El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.4. Una buena elección (cuando volamos en el DroneLab) es 7 metros.
+El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.4. Una buena elección (cuando volamos en el DroneLab) es 7 metros.    
  <img src="https://github.com/user-attachments/assets/483e606c-f060-48eb-bff5-4e259b09b968" width="400" height="200">    
 **Figura 5.4:** Configuración de la altura para RTL
 
