@@ -303,8 +303,8 @@ Los pasos se indican en la tabla, que será la guía de esta actividad. Para cad
 | 7	| Configurar los modos de vuelo (seleccionar: AltHold, Loiter y RTL) y RTL altitude | https://youtu.be/PNEuuCZnhX0 (Nota 3) |
 
 **Nota 1**    
-El autopiloto tiene muchos parametros que especifican cómo debe comportarse. Inmediatamente después de installar el firmware (es decir, el código que implementa la operación del autopiloto) es necesario resetear todos los parámetros a su valor por defecto, pulsando el botón que se muestra en la figura 5.3. Si no se hace esto, los parámetros pueden tener valores (de usuarios anteriores) que hagan que el autopiloto se comporte de manera inesperada. Esta operación no se muestra en el video pero la figura 5.3 debe ser suficiente.    
- <img src="https://github.com/user-attachments/assets/483e606c-f060-48eb-bff5-4e259b09b968" width="400" height="200">    
+El autopiloto tiene muchos parametros que especifican cómo debe comportarse. Inmediatamente después de installar el firmware (es decir, el código que implementa la operación del autopiloto) es necesario resetear todos los parámetros a su valor por defecto, pulsando el botón que se muestra en la figura 5.3. Si no se hace esto, los parámetros pueden tener valores (de usuarios anteriores) que hagan que el autopiloto se comporte de manera inesperada. Esta operación no se muestra en el video pero la figura 5.3 debe ser suficiente.   
+ <img src="https://github.com/user-attachments/assets/18c4e7b2-15aa-4f92-acb1-b2e3a32447cb" width="400" height="200">    
 **Figura 5.3:** Reseteo de los parámetros a su valor por defecto    
 Después de resetear los parámetros, deben configurarse los siguientes (el último no se muestra en el vídeo):
 CAN_P1_DRIVER -> 1    
