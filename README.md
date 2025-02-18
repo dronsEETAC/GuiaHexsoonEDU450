@@ -414,7 +414,7 @@ La segunda decisión es qué hacer en caso de fallo de radio. Una buena opción 
     
 **Nota 2**   
 
-Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s). Hay que tocar el parámetro PILOT_SPEED_UP.    
+Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s). Hay que tocar el parámetro PILOT_SPEED_UP (este ajuste no se muestra en el video).    
  <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	    
 **Figura 7.1:** Modificación de la velocidad de ascenso y descenso en pilotaje manual    
    
