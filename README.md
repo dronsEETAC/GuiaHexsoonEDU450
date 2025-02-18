@@ -399,19 +399,19 @@ Los pasos a realizar se enumeran en la tabla. Para cada paso se proporciona un v
 | 3  | Configuración del servo, FailSave y Arm/Disarm| https://youtu.be/D1ne2W3uEEE  (Nota 1)|
 | 4  | Configuración del monitor de bateria| https://youtu.be/DGpoN0KlAYY |
 | 5  | Test de motores| https://youtu.be/w6N368HIncc |
-| 6  | Carga de parámetros seleccionados | https://youtu.be/9pilQ3uT8mA |
-| 7  | Comprobaciones finales |https://youtu.be/Af_ygwTi_s0 (Nota 2) |
+| 6  | Carga de parámetros seleccionados | https://youtu.be/9pilQ3uT8mA (Nota 2) |
+| 7  | Comprobaciones finales |https://youtu.be/Af_ygwTi_s0 |
 
-La mayoría de los pasos requieren que el autopiloto esté conectado con Mission Planner. Recuerda que tenemos dos maneras de realizar esta conexión: mediante el cable USB o mediante la radio de telemetría. En este caso, ya que los pasos se darán con el dron en tierra, cualquiera de las dos conexiones es posible. Sin embargo, puesto que en actividades anteriores ya se han hecho operaciones con la conexión vía USB, se propone que los siguientes pasos se hagan con la conexión vía radio de telemetría, para verificar que funciona correctamente. No obstante, se observará que la comunicación a través de esta vía es más lenta.
+La mayoría de los pasos requieren que el autopiloto esté conectado con Mission Planner. Recuerda que tenemos dos maneras de realizar esta conexión: mediante el cable USB o mediante la radio de telemetría. En este caso, ya que los pasos se darán con el dron en tierra, cualquiera de las dos conexiones es posible. Sin embargo, puesto que en actividades anteriores ya se han hecho operaciones con la conexión vía USB, se propone que los siguientes pasos se hagan con la conexión vía radio de telemetría, para verificar que funciona correctamente. No obstante, se observará que la comunicación a través de esta vía es más lenta.   
+   
 **Nota 1**
-El parámetro FailSave especifica qué debe hacer el piloto automático si el sistema falla. Por el momento, sólo nos interesa especificar qué hacer si el dron pierde contacto con la radio (también puedes especificar qué hacer en caso de batería baja). Como puedes ver en el video debes especificar dos cosas. El FS PWM es el valor de la señal del acelerador throttle) por debajo del cual el piloto automático considerará que se ha perdido la radio. Recuerda que tomaste una nota sobre la señal PWM mínima que generará la emisora cuando se manipuila el throttle (nota 2 en actividad #5). Obviamente el FS PWM debe ser un valor inferior al mínimo (en el video se asigna un valor de 975, que es inferior a 982).   
-La segunda decisión es qué hacer en caso de fallo de radio. Una buena opción es volver a casa (RTL).   
-Nota 2
-Ten en cuenta que, si intentas armar el dron en modo Loiter, el sistema te dirá que el dron no se puede armar debido a una mala señal GPS, a menos que intentes armarlo en el exterior, donde se recibe una buena señal GPS. Por lo tanto, si estas en un espacio interior, intenta armar el dron en modo Alt Hold.    
-Ten en cuenta también que si intentas armarlo con la radio apagada el sistema dará un error. ¿Podrías explicar por qué?
-Incluso con la radio encendida, al intentar armar el dron probablemente tendrás el error que se muestra en el video: PreArm: Check FS_THR_VALUE. En principio, incluso con el acelerador totalmente bajado, la señal PWM que se genera es superior a la FS PWM. Por lo que el sistema debería poder armarse.
-Sin embargo, hay un valor umbral de 10, para asegurar que el parámetro FS PWM no está demasiado cerca del mínimo PWM del acelerador. Recuerda que el mínimo PWM del acelerador es 982 y el FS PWM es 975. La diferencia es menor que el valor umbral. Esta es la razón de la notificación de PreArm Check. Simplemente cambia el valor de FS PWM a 972 (o menos) y la notificación desaparecerá.
-Nota 4
+El parámetro FailSave especifica qué debe hacer el piloto automático si el sistema falla. Por el momento, sólo nos interesa especificar qué hacer si el dron pierde contacto con la radio (también puedes especificar qué hacer en caso de batería baja).   
+     
+Como puedes ver en el video debes especificar dos cosas. El FS PWM es el valor de la señal del acelerador throttle) por debajo del cual el piloto automático considerará que se ha perdido la radio. Recuerda que tomaste una nota sobre la señal PWM mínima que generará la emisora cuando se manipuila el throttle (nota 2 en actividad #5). Obviamente el FS PWM debe ser un valor inferior al mínimo (en el video se asigna un valor de 975, que es inferior a 982).   
+   
+La segunda decisión es qué hacer en caso de fallo de radio. Una buena opción es volver a casa (RTL).    
+    
+**Nota 2**
 Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s).    
  <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	    
 **Figura 7.1:** Modificación de la velocidad de ascenso y descenso en pilotaje manual    
