@@ -6,7 +6,7 @@ En esta guía se describe, paso a paso, el proceso de montaje, configuración y 
 **Figura 0.1:** El kit   
 
 El resultado final es el dron que se muestra en la figura 0.2, bien configurado y preparado para volar.    
-.   
+      
 <img src="https://github.com/user-attachments/assets/f1ae0ac4-1545-4fba-a412-fd283c784590" width="400" height="250">     
 **Figura 0.2:** El dron resultante
 
