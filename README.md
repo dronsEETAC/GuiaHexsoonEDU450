@@ -438,7 +438,7 @@ El simulador SITL puede ponerse en marcha desde el propio Mission Planner. Simul
 ### 3. Geofences
 En algunas ocasiones es buena idea poner límites en la zona que quieres volar para que el piloto automático impida que el drone cruce los límites de esta zona. Este mecanismo se llama geofence.    
 Como se muestra en la figura 8.1, Mission Planner permite establecer un geofence dibujando un polígono que representa los límites que el dron no puede cruzar.   
- <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	   
+ <img src="https://github.com/user-attachments/assets/4d2ebf0c-1f23-46e1-8fe5-963849f3b69a" width="400" height="200">   	   
 **Figura 8.1:** Configuración de un geofence con Mission Planner   
 
 ### 4.Planificación de misiones 
