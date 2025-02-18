@@ -127,9 +127,7 @@ Se puede observar que cada motor tiene sobre la palabra HEXSOON unas flechitas q
 El resultado de esta operación se muestra en la figura 3.8. No es una operación trivial y requiere cierta habilidad manual.   
 <img src="https://github.com/user-attachments/assets/c01bad3b-34c3-4dfb-8532-2671e05405f0" width="300" height="200">  
 **Figura 3.8:** Motor conectados al extremo del brazo
-
-Para el proyecto de UAS no vamos a utilizar los LEDs así que no te preocupes si no ves el LED en el kit.   
-
+     
 ### 9. Fijar los brazos a las planchas superior e inferior
 Las imágenes de la figura 3.9 muestran cómo realizar esta operación. Observad de nuevo cómo los siguientes cables deben emerger por la parte superior de la carcasa:
 
