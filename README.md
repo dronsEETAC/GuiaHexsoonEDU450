@@ -456,6 +456,14 @@ Juega un poco con las herramientas que te hemos mostrado en esta actividad. En p
 * Diferentes accciones en caso de violación del geofence
 * La diferencia entre un geofence de inclusión y uno de exclusión
 
+## Ya hemos volado y ¿ahora qué?
+Las instrucciones de esta guía deben haberte permitido montar, configurar y hacer pruebas de vuelo en lugares adecuados para ello (por ejemplo el DroneLab del Campus del Baix Llobregat de la UPC en Castelldefels).  
+Pero ahora es cuando empieza lo bueno porque se abre todo un mundo de posibilidades relacionadas con el desarrollo de software para controlar la operación del dron de diferentes formas. En definitiva, estamos ya en condiciones de aprender a desarrollar nuestra propia estación de tierra igual que otros en el pasado desarrollaron Mission Planner.    
+Si te interesa profundizar en el tema del control del dron mediante tus propios programas puedes consultar estos dos materiales:
+[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-TelecoRenta_Taller_de_Drones.svg)](https://github.com/TelecoRenta/Taller-de-drones)
+Aquí aprenderás más sobre cómo controlar el dron usando Mission Planner y también aprenderás a crear un sencillo programa en Python con unos cuantos botones para despegar el dron, hacerlo volar en varias direcciones y aterrizarlo.    
+[![DroneEngineeringEcosystem Badge](https://img.shields.io/badge/DEE-Programacion_de_Drones.svg)](https://github.com/dronsEETAC/Programacion-de-drones)
+Aquí aprenderás mucho más sobre desarrollo de solfware para controlar el dron, incluyendo interacción con el dron a través de mapas satelitales o control del dron mediante poses de tu cuerpo. También encontraras material que te permitirá introducirte en el mundo del reconocimiento de objetos mediante redes neuronales o el desarrollo de web apps para controlar el dron desde cualquier dispositivo móvil con conexión a internet.    
 
 
 
