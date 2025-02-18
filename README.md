@@ -303,22 +303,25 @@ Los pasos se indican en la tabla, que será la guía de esta actividad. Para cad
 | 7	| Configurar los modos de vuelo (seleccionar: AltHold, Loiter y RTL) y RTL altitude | https://youtu.be/PNEuuCZnhX0 (Nota 3) |
 
 **Nota 1**    
-Como se indica en el vídeo, estos son los parámetros que se deben configurar:
-
+El autopiloto tiene muchos parametros que especifican cómo debe comportarse. Inmediatamente después de installar el firmware (es decir, el código que implementa la operación del autopiloto) es necesario resetear todos los parámetros a su valor por defecto, pulsando el botón que se muestra en la figura 5.3. Si no se hace esto, los parámetros pueden tener valores (de usuarios anteriores) que hagan que el autopiloto se comporte de manera inesperada. Esta operación no se muestra en el video pero la figura 5.3 debe ser suficiente.    
+ <img src="https://github.com/user-attachments/assets/483e606c-f060-48eb-bff5-4e259b09b968" width="400" height="200">    
+**Figura 5.3:** Reseteo de los parámetros a su valor por defecto    
+Después de resetear los parámetros, deben configurarse los siguientes (el último no se muestra en el vídeo):
 CAN_P1_DRIVER -> 1    
 GPS_TYPE -> 9    
 NTF_LED_TYPES -> 231    
 BRD_SAFETY_DEFLT -> 0   
+BRD_BOOT_DELAY > 3000 (retrasa 3 segundos la inicialización del autopiloto para asegurar que todos los perifericos se han iniciado antes completamente)
 
-Haz clic en "Write Params" al finalizar. Las funciones del bus CAN estarán disponibles después de reiniciar el autopiloto.
+No olvidar hacer clic en "Write Params" al finalizar. 
 
 **Nota 2**    
 Al calibrar la radio verás los valores máximo y mínimo de la señal PWM generada por cada uno de los actuadores. De momento, sólo son importantes los valores generados por el acelerador. Toma nota de estos valores (estos valores deben ser similares a 982 y 2006)
 
 **Nota 3**    
-El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.3. Una buena elección (cuando volamos en el DroneLab) es 7 metros.
+El modo de vuelo RTL se utiliza cuando quieres que tu dron vuelva a la posición inicial inmediatamente (por ejemplo, en caso de problemas). Para ello, el dron subirá hasta alcanzar una altitud determinada y volará directamente a casa. Debes configurar esta altitud en la lista completa de parámetros, como se muestra en la figura 5.4. Una buena elección (cuando volamos en el DroneLab) es 7 metros.
  <img src="https://github.com/user-attachments/assets/483e606c-f060-48eb-bff5-4e259b09b968" width="400" height="200">    
-**Figura 5.3:** Configuración de la altura para RTL
+**Figura 5.4:** Configuración de la altura para RTL
 
 ## Actividad #6: Montaje de la carcasa (parte 2)   
 ### 1. Presentación
