@@ -436,19 +436,20 @@ El simulador SITL puede ponerse en marcha desde el propio Mission Planner. Simul
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1BPK29MOLlg)](https://www.youtube.com/watch?v=1BPK29MOLlg)
 
 ### 3. Geofences
-En algunas ocasiones es buena idea poner límites en la zona que quieres volar para que el piloto automático impida que el drone cruce los límites de esta zona. Este mecanismo se llama geofence.    
+En algunas ocasiones es buena idea poner límites en la zona que quieres volar para que el piloto automático impida que el drone cruce los límites de esta zona. Este mecanismo se llama geofence.   
+
 Como se muestra en la figura 8.1, Mission Planner permite establecer un geofence dibujando un polígono que representa los límites que el dron no puede cruzar.   
  <img src="https://github.com/user-attachments/assets/4d2ebf0c-1f23-46e1-8fe5-963849f3b69a" width="400" height="200">   	   
 **Figura 8.1:** Configuración de un geofence con Mission Planner   
 
 ### 4.Planificación de misiones 
 El piloto automático acepta planes de vuelo definidos como una secuencia de waypoints (una misión). Mission Planner te permite definir una misión, enviarla al piloto automático y ejecutarla.      
- 
+  
 Mira este vídeo para aprender los conceptos básicos sobre cómo configurar un geofence, cómo definir una misión y cómo ejecutarla (y mira qué sucede cuando el dron cruza los límites del geofence).   
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg-UfZ4gamq8)](https://www.youtube.com/watch?v=g-UfZ4gamq8)
 
 
-### 5.Elaboración
+### 5. Elaboración
 Juega un poco con las herramientas que te hemos mostrado en esta actividad. En particular explora:
 * Cómo definir un geofence en forma de círculo
 * Cómo cambiar los márgenes que usar el autopiloto para decidir que se ha violado el geofence (FENCE MARGIN)
