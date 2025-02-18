@@ -437,22 +437,24 @@ El simulador SITL puede ponerse en marcha desde el propio Mission Planner. Simul
 
 ### 3. Geofences
 En algunas ocasiones es buena idea poner límites en la zona que quieres volar para que el piloto automático impida que el drone cruce los límites de esta zona. Este mecanismo se llama geofence.    
-Como se muestra en la figura 8.1, Mission Planner permite establecer un geofence dibujando un polígono que representa los límites que el dron no puede cruzar.
- <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	 
-**Figura 8.1:** Configuración de un geofence con Mission Planner
+Como se muestra en la figura 8.1, Mission Planner permite establecer un geofence dibujando un polígono que representa los límites que el dron no puede cruzar.   
+ <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	   
+**Figura 8.1:** Configuración de un geofence con Mission Planner   
 
 ### 4.Planificación de misiones 
-El piloto automático acepta planes de vuelo definidos como una secuencia de waypoints (una misión). Mission Planner te permite definir una misión, enviarla al piloto automático y ejecutarla.   
-Mira este vídeo para aprender los conceptos básicos sobre cómo configurar un geofence, cómo definir una misión y cómo ejecutarla (y mira qué sucede cuando el dron cruza los límites del geofence).
+El piloto automático acepta planes de vuelo definidos como una secuencia de waypoints (una misión). Mission Planner te permite definir una misión, enviarla al piloto automático y ejecutarla.      
+ 
+Mira este vídeo para aprender los conceptos básicos sobre cómo configurar un geofence, cómo definir una misión y cómo ejecutarla (y mira qué sucede cuando el dron cruza los límites del geofence).   
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg-UfZ4gamq8)](https://www.youtube.com/watch?v=g-UfZ4gamq8)
 
 
-### 5.Elaboration
-Play a little bit with the tools showed in this activity. In particular, explore:
-•	How to define a geofence with the form of a circle
-•	How to change the margins used to determine fence breach
-•	The different actions in case of fence breach 
-•	The difference between fence inclusion and fence exclusion
+### 5.Elaboración
+Juega un poco con las herramientas que te hemos mostrado en esta actividad. En particular explora:
+* Cómo definir un geofence en forma de círculo
+* Cómo cambiar los márgenes que usar el autopiloto para decidir que se ha violado el geofence (FENCE MARGIN)
+* Diferentes accciones en caso de violación del geofence
+* La diferencia entre un geofence de inclusión y uno de exclusión
+
 
 
 
