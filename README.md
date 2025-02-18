@@ -404,15 +404,17 @@ Los pasos a realizar se enumeran en la tabla. Para cada paso se proporciona un v
 
 La mayoría de los pasos requieren que el autopiloto esté conectado con Mission Planner. Recuerda que tenemos dos maneras de realizar esta conexión: mediante el cable USB o mediante la radio de telemetría. En este caso, ya que los pasos se darán con el dron en tierra, cualquiera de las dos conexiones es posible. Sin embargo, puesto que en actividades anteriores ya se han hecho operaciones con la conexión vía USB, se propone que los siguientes pasos se hagan con la conexión vía radio de telemetría, para verificar que funciona correctamente. No obstante, se observará que la comunicación a través de esta vía es más lenta.   
    
-**Nota 1**
+**Nota 1**   
+
 El parámetro FailSave especifica qué debe hacer el piloto automático si el sistema falla. Por el momento, sólo nos interesa especificar qué hacer si el dron pierde contacto con la radio (también puedes especificar qué hacer en caso de batería baja).   
      
 Como puedes ver en el video debes especificar dos cosas. El FS PWM es el valor de la señal del acelerador throttle) por debajo del cual el piloto automático considerará que se ha perdido la radio. Recuerda que tomaste una nota sobre la señal PWM mínima que generará la emisora cuando se manipuila el throttle (nota 2 en actividad #5). Obviamente el FS PWM debe ser un valor inferior al mínimo (en el video se asigna un valor de 975, que es inferior a 982).   
    
 La segunda decisión es qué hacer en caso de fallo de radio. Una buena opción es volver a casa (RTL).    
     
-**Nota 2**
-Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s).    
+**Nota 2**   
+
+Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s). Hay que tocar el parámetro PILOT_SPEED_UP.    
  <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	    
 **Figura 7.1:** Modificación de la velocidad de ascenso y descenso en pilotaje manual    
    
