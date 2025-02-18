@@ -166,29 +166,29 @@ Cada uno de las señales PWM generadas por el receptor puede controlar un dispos
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLyPtzv0y5DE)](https://www.youtube.com/watch?v=LyPtzv0y5DE)
 
 
-### 3. Cargar la batería del transmisor
-Para cargar la batería del transmisor, solo necesitas conectarlo a una computadora mediante USB. El transmisor viene con el cable necesario, que se conecta a la parte posterior del transmisor y a cualquier puerto USB de la computadora. La luz indicadora se pondrá en verde, como se muestra en la figura 4.4.    
+### 3. Cargar la batería de la emisora de radio
+Para cargar la batería de la emisora, solo necesitas conectarlo a una computadora mediante USB. La emisora viene con el cable necesario, que se conecta a la parte posterior de la emisora y a cualquier puerto USB de la computadora. La luz indicadora se pondrá en verde, como se muestra en la figura 4.4.    
 <img src="https://github.com/user-attachments/assets/ef667639-7d7f-489e-b00f-46e2826c3a51" width="300" height="400">    
 **Figura 4.4:** Carga de la batería de la emisora
 
-Como indica el documento pequeño que viene con el transmisor, la luz verde se apagará cuando la batería esté completamente cargada.
+Como indica el documento pequeño que viene con la emisora, la luz verde se apagará cuando la batería esté completamente cargada.
 
 ### 4. Insertar la tarjeta MicroSD
-La figura 4.5 muestra cómo insertar la tarjeta MicroSD en el transmisor.     
+La figura 4.5 muestra cómo insertar la tarjeta MicroSD en la emisora.     
 <img src="https://github.com/user-attachments/assets/038ac382-6416-403d-bf4a-55de81651145" width="300" height="300">    
 **Figura 4.5:** Inserción de la MicroSD en la emisora
 
-De hecho, la tarjeta MicroSD no es imprescindible para el funcionamiento del transmisor. Sin embargo, la incorporación de la tarjeta amplía notablemente la capacidad de almacenamiento, lo que permite agregar sonidos, música y elementos que pueden mejorar mucho la experiencia del usuario del transmisor. En esta guía no dedicaremos más tiempo a esta cuestión. Se pueden encontrar más detalles en este vídeo:
+De hecho, la tarjeta MicroSD no es imprescindible para el funcionamiento de la emisora. Sin embargo, la incorporación de la tarjeta amplía notablemente la capacidad de almacenamiento, lo que permite agregar sonidos, música y elementos que pueden mejorar mucho la experiencia del usuario. En esta guía no dedicaremos más tiempo a esta cuestión. Se pueden encontrar más detalles en este vídeo:
  
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqYo99q0HZMg)](https://www.youtube.com/watch?v=qYo99q0HZMg)
 
-### 5. Calibración de la radio
-Antes de configurar la radio para controlar el dron, es necesario calibrarla. En el siguiente vídeo se muestra cómo realizar esta operación.      
+### 5. Calibración de la emisora
+Antes de configurar la emisora para controlar el dron, es necesario calibrarla. En el siguiente vídeo se muestra cómo realizar esta operación.      
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DplLWhwmY-rM)](https://www.youtube.com/watch?v=plLWhwmY-rM)
 
 
 ### 6. Configuración
-Para controlar el dron desde el transmisor de radio, necesitamos crear un modelo que asocie cada uno de los actuadores que queremos utilizar con uno de los canales del transmisor. Para crear el modelo, se puede utilizar el software Open TX Companion que debe instalarse en la computadora (descargar desde https://www.open-tx.org/ ).
+Para controlar el dron desdela emisora de radio, necesitamos crear un modelo que asocie cada uno de los actuadores que queremos utilizar con uno de los canales de la emisora. Para crear el modelo, se puede utilizar el software Open TX Companion que debe instalarse en la computadora (descargar desde https://www.open-tx.org/ ).
 
 Para crear el modelo, primero debes poner la radio en modo USB, como se muestra en este vídeo.
 
@@ -203,14 +203,14 @@ Ahora ya se puede crear el modelo. El vídeo muestra cómo hacerlo.
 Estos son los pasos que se pueden ver en el vídeo:
 
 1.	Iniciar Open TX.
-2.	Cargar los modelos que ya tiene en ese momento el transmisor (que está conectado a la computadora mediante USB).
+2.	Cargar los modelos que ya tiene en ese momento la emisora (que está conectado a la computadora mediante USB).
 
 ATENCIÓN: Aunque el vídeo no lo muestra, es importante verificar que los sticks de la radio estén configurados correctamente (en Estados Unidos la configuración de los sticks es diferente a la de Europa). Las dos imágenes de la figura 4.6 indican cómo realizar esta verificación.     
 <img src="https://github.com/user-attachments/assets/46ec777c-19d3-40b9-93e4-06017cbb0a0f" width="400" height="150">     
 **Figura 4.6:** Verificar que los sticks de la emisora están en el modo correcto
 
 3.	Crear un nuevo modelo (newModel en el vídeo)
-4.	Para la asignación de las palancas del transmisor a los canales, sigue la tabla siguiente:
+4.	Para la asignación de las palancas de la emisora a los canales, sigue la tabla siguiente:
 
 | Operación | Descripción | Canal |
 |-----------|-----------|-----------|
@@ -222,14 +222,14 @@ ATENCIÓN: Aunque el vídeo no lo muestra, es importante verificar que los stick
 5.	Asignar el interruptor SB (que tiene tres posiciones) al canal 5.
 6.	Asignar el interruptor SF (que tiene dos posiciones) al canal 7.
 7.	Simular el modelo para verificar que es correcto.
-8.	Guardar el modelo en el transmisor.
+8.	Guardar el modelo en la emisora.
 
 Aunque el vídeo no lo muestre, es conveniente asignar el interruptor SC (con tres posiciones) al canal 6. Más adelante se indicará para qué se necesitarán los interruptores SB, SC y SF.
 
-También puedes crear un modelo utilizando directamente el radiotransmisor, como se muestra en este vídeo:    
+También puedes crear un modelo directamente en la emisora, sin necesida del software Open TX, como se muestra en este vídeo:    
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DZFuazchCv4o)](https://www.youtube.com/watch?v=ZFuazchCv4o)    
 
-Por último, es necesario vincular el transmisor (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cadZFuazchCv4oa caso.
+Por último, es necesario vincular la emisora (con el modelo creado) al receptor. El procedimiento depende del tipo de protocolo utilizado por el receptor (ACCESS o ACCST). Estos vídeos describen el procedimiento para cada caso.
 
 [![](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D07qpdApsCAI)](https://www.youtube.com/watch?v=07qpdApsCAI)     
 (protocolo ACCESS)     
