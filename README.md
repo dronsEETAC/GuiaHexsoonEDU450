@@ -413,11 +413,14 @@ Como puedes ver en el video debes especificar dos cosas. El FS PWM es el valor d
 La segunda decisión es qué hacer en caso de fallo de radio. Una buena opción es volver a casa (RTL).    
     
 **Nota 2**   
-
+ 
+En ocasiones ocurre que al pedir que se carguen los parámetros recomendados para el Hexsoon EDU 450 el sistema responde que no encuentra el fichero con esos parámetros. En ese caso, puede descargarse de este respositoria el fichero con esos parámetros recomendados y cargarlos usando el boton verde *Load from file* (parte superior izquierda).   
+  
 Cuando se pilota el dron de manera manual es importante, especialmente en las primeras pruebas de vuelo, que la velocidad a la cual asciende o desciende el dron sea moderada. Esta velocidad se puede configurar tal como muestra la figura 7.1, en la cual se ve cómo se cambia la velocidad por defecto (250 cm/s) por una inferior (100 cm/s). Hay que tocar el parámetro PILOT_SPEED_UP (este ajuste no se muestra en el video).    
  <img src="https://github.com/user-attachments/assets/de28a838-34ec-492c-8cda-67acb079371f" width="400" height="200">   	    
 **Figura 7.1:** Modificación de la velocidad de ascenso y descenso en pilotaje manual    
-   
+
+
 ### 3.Nivel de la batería 
 
 Debes comprobar con frecuencia el nivel de carga de la batería, como se muestra en la imagen 7.2.    
